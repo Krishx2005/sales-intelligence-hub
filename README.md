@@ -2,7 +2,7 @@
 
 Full-stack analytics dashboard built on the Superstore dataset (9,994 transactions, 2014–2017). Python handles the ETL and customer analytics, Node.js serves the API, and React renders everything in a dark-themed dashboard with glassmorphism UI.
 
-**Live:** [Frontend](https://sales-intelligence-hub.vercel.app) · [API](https://sales-intelligence-hub-api.onrender.com)
+**Live:** [Frontend](https://sales-intelligence-hub-2gc7.vercel.app) · [API](https://sales-intelligence-hub-1.onrender.com)
 
 ## Tech Stack
 

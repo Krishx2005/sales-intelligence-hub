@@ -1,8 +1,3 @@
-/**
- * Sales Intelligence Hub — REST API
- * Serves analytics data from SQLite via Express endpoints.
- */
-
 const express = require("express");
 const cors = require("cors");
 const Database = require("better-sqlite3");
@@ -12,7 +7,6 @@ const fs = require("fs");
 const app = express();
 const PORT = process.env.PORT || 4000;
 
-// ── Database connection ──────────────────────────────────────────────────────
 const DB_PATH = path.join(__dirname, "..", "data", "superstore.db");
 const KPI_PATH = path.join(__dirname, "..", "data", "kpis.json");
 const FORECAST_PATH = path.join(__dirname, "..", "data", "forecast_results.csv");
@@ -29,7 +23,6 @@ try {
 app.use(cors());
 app.use(express.json());
 
-// ── Helper: parse CSV string into array of objects ───────────────────────────
 function parseCSV(csvString) {
   const lines = csvString.trim().split("\n");
   const headers = lines[0].split(",").map((h) => h.replace(/"/g, "").trim());
@@ -53,18 +46,15 @@ function parseCSV(csvString) {
   });
 }
 
-// ── Middleware: request logging ───────────────────────────────────────────────
 app.use((req, _res, next) => {
   console.log(`${new Date().toISOString()} ${req.method} ${req.path}`);
   next();
 });
 
-// ── Health check ─────────────────────────────────────────────────────────────
 app.get("/api/health", (_req, res) => {
   res.json({ status: "ok", timestamp: new Date().toISOString() });
 });
 
-// ── KPIs ─────────────────────────────────────────────────────────────────────
 app.get("/api/kpis", (_req, res) => {
   try {
     const kpis = JSON.parse(fs.readFileSync(KPI_PATH, "utf-8"));
@@ -74,8 +64,6 @@ app.get("/api/kpis", (_req, res) => {
   }
 });
 
-// ── Sales Trends ─────────────────────────────────────────────────────────────
-// GET /api/sales/trends?by=region|category&region=X&category=X&start=YYYY-MM&end=YYYY-MM
 app.get("/api/sales/trends", (req, res) => {
   try {
     const { by = "region", region, category, start, end } = req.query;
@@ -111,7 +99,6 @@ app.get("/api/sales/trends", (req, res) => {
   }
 });
 
-// ── Quarterly Sales ──────────────────────────────────────────────────────────
 app.get("/api/sales/quarterly", (_req, res) => {
   try {
     const rows = db
@@ -123,8 +110,6 @@ app.get("/api/sales/quarterly", (_req, res) => {
   }
 });
 
-// ── Customer Segmentation (RFM) ─────────────────────────────────────────────
-// GET /api/customers/segments?segment=X&churn=Low|Medium|High
 app.get("/api/customers/segments", (req, res) => {
   try {
     const { segment, churn } = req.query;
@@ -148,7 +133,6 @@ app.get("/api/customers/segments", (req, res) => {
   }
 });
 
-// ── Segment Summary ──────────────────────────────────────────────────────────
 app.get("/api/customers/segment-summary", (_req, res) => {
   try {
     const rows = db
@@ -170,7 +154,6 @@ app.get("/api/customers/segment-summary", (_req, res) => {
   }
 });
 
-// ── Churn Risk Distribution ──────────────────────────────────────────────────
 app.get("/api/customers/churn-distribution", (_req, res) => {
   try {
     const rows = db
@@ -190,7 +173,6 @@ app.get("/api/customers/churn-distribution", (_req, res) => {
   }
 });
 
-// ── Regional Performance ────────────────────────────────────────────────────
 app.get("/api/regions", (_req, res) => {
   try {
     const rows = db
@@ -213,7 +195,6 @@ app.get("/api/regions/states", (_req, res) => {
   }
 });
 
-// ── Category Performance ────────────────────────────────────────────────────
 app.get("/api/categories", (_req, res) => {
   try {
     const rows = db
@@ -227,7 +208,6 @@ app.get("/api/categories", (_req, res) => {
   }
 });
 
-// ── Forecast Data ───────────────────────────────────────────────────────────
 app.get("/api/forecast", (_req, res) => {
   try {
     if (!fs.existsSync(FORECAST_PATH)) {
@@ -241,7 +221,6 @@ app.get("/api/forecast", (_req, res) => {
   }
 });
 
-// ── Filter Options ──────────────────────────────────────────────────────────
 app.get("/api/filters", (_req, res) => {
   try {
     const regions = db
@@ -274,7 +253,6 @@ app.get("/api/filters", (_req, res) => {
   }
 });
 
-// ── Orders with filtering ───────────────────────────────────────────────────
 app.get("/api/orders", (req, res) => {
   try {
     const { region, category, start, end, limit = 100, offset = 0 } = req.query;
@@ -303,20 +281,6 @@ app.get("/api/orders", (req, res) => {
   }
 });
 
-// ── Start server ─────────────────────────────────────────────────────────────
 app.listen(PORT, () => {
-  console.log(`\n🚀 Sales Intelligence API running on http://localhost:${PORT}`);
-  console.log(`   Endpoints:`);
-  console.log(`     GET /api/health`);
-  console.log(`     GET /api/kpis`);
-  console.log(`     GET /api/sales/trends?by=region|category`);
-  console.log(`     GET /api/sales/quarterly`);
-  console.log(`     GET /api/customers/segments`);
-  console.log(`     GET /api/customers/segment-summary`);
-  console.log(`     GET /api/customers/churn-distribution`);
-  console.log(`     GET /api/regions`);
-  console.log(`     GET /api/categories`);
-  console.log(`     GET /api/forecast`);
-  console.log(`     GET /api/filters`);
-  console.log(`     GET /api/orders`);
+  console.log(`API running on http://localhost:${PORT}`);
 });

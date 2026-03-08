@@ -1,9 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
 
-/**
- * Animated counter hook — counts from 0 to target value on mount.
- * Uses easeOutExpo for a cinematic feel.
- */
 export function useAnimatedCounter(target, duration = 2000, delay = 0) {
   const [value, setValue] = useState(0);
   const startTime = useRef(null);
@@ -21,7 +17,7 @@ export function useAnimatedCounter(target, duration = 2000, delay = 0) {
       function animate(now) {
         const elapsed = now - startTime.current;
         const progress = Math.min(elapsed / duration, 1);
-        // easeOutExpo
+
         const eased = progress === 1 ? 1 : 1 - Math.pow(2, -10 * progress);
         setValue(eased * target);
 

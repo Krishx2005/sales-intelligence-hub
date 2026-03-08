@@ -1,9 +1,3 @@
-/**
- * API client — fetches data from the Express backend.
- * In development, Vite proxies /api to localhost:4000.
- * In production, set VITE_API_URL to the deployed backend URL.
- */
-
 const BASE = import.meta.env.VITE_API_URL
   || (import.meta.env.PROD ? 'https://sales-intelligence-hub-1.onrender.com' : '');
 

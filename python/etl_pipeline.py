@@ -1,7 +1,6 @@
 """
-ETL Pipeline — Sales Performance & Customer Intelligence Hub
-Loads Superstore CSV, cleans data, builds SQLite relational schema,
-computes KPIs, RFM segmentation, churn risk scores, and exports CSVs.
+ETL pipeline for the Sales Intelligence Hub.
+Loads Superstore CSV → cleans → SQLite + KPIs + RFM segmentation + churn scores.
 """
 
 import pandas as pd

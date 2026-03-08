@@ -1,6 +1,5 @@
 """
-Forecast fallback — generates the same linear regression forecast as the R script
-using pure numpy (no sklearn dependency needed).
+Linear regression forecast using numpy (Python fallback for the R script).
 """
 
 import pandas as pd

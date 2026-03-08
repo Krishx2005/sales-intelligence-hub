@@ -7,11 +7,11 @@ export default function LoadingScreen({ onComplete }) {
 
   useEffect(() => {
     const phases = [
-      { at: 0, text: 'Establishing secure connection' },
-      { at: 20, text: 'Initializing analytics engine' },
-      { at: 45, text: 'Loading intelligence modules' },
-      { at: 70, text: 'Processing data streams' },
-      { at: 90, text: 'Preparing dashboard' },
+      { at: 0, text: 'Connecting to database' },
+      { at: 20, text: 'Loading analytics data' },
+      { at: 45, text: 'Building charts' },
+      { at: 70, text: 'Crunching numbers' },
+      { at: 90, text: 'Almost ready' },
     ];
 
     const interval = setInterval(() => {
@@ -39,7 +39,7 @@ export default function LoadingScreen({ onComplete }) {
       }`}
       style={{ background: '#060a13' }}
     >
-      {/* Ambient glow */}
+
       <div
         className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full opacity-30"
         style={{
@@ -48,7 +48,7 @@ export default function LoadingScreen({ onComplete }) {
         }}
       />
 
-      {/* Logo mark */}
+
       <div className="relative mb-10" style={{ animation: 'logo-breathe 3s ease-in-out infinite' }}>
         <div className="w-16 h-16 rounded-2xl flex items-center justify-center relative"
           style={{
@@ -75,7 +75,7 @@ export default function LoadingScreen({ onComplete }) {
         </div>
       </div>
 
-      {/* Brand */}
+
       <h1 className="text-lg font-semibold tracking-tight text-white/90 mb-1" style={{ fontFamily: "'Plus Jakarta Sans', sans-serif" }}>
         Sales Intelligence
       </h1>
@@ -83,7 +83,7 @@ export default function LoadingScreen({ onComplete }) {
         Analytics Hub
       </p>
 
-      {/* Progress track */}
+
       <div className="w-48 mb-5">
         <div className="h-[2px] rounded-full overflow-hidden" style={{ background: 'rgba(255,255,255,0.04)' }}>
           <div
@@ -97,7 +97,7 @@ export default function LoadingScreen({ onComplete }) {
         </div>
       </div>
 
-      {/* Phase */}
+
       <p className="text-[11px] text-white/20 tracking-wide font-medium">{phase}</p>
     </div>
   );

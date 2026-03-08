@@ -10,7 +10,7 @@ function KPICard({ label, value, formattedValue, icon: Icon, color, trend, delay
       className="kpi-card animate-fade-in-up"
       style={{ '--accent-color': color, animationDelay: `${delay}ms` }}
     >
-      {/* Icon + trend row */}
+
       <div className="flex items-center justify-between mb-5">
         <div
           className="w-10 h-10 rounded-xl flex items-center justify-center"
@@ -32,13 +32,13 @@ function KPICard({ label, value, formattedValue, icon: Icon, color, trend, delay
         )}
       </div>
 
-      {/* Value */}
+
       <p className="text-[28px] font-extrabold text-white tracking-tight leading-none"
         style={{ fontVariantNumeric: 'tabular-nums' }}>
         {formattedValue(animated)}
       </p>
 
-      {/* Label */}
+
       <p className="text-[11px] font-semibold text-white/20 mt-2.5 uppercase tracking-[0.1em]">{label}</p>
     </div>
   );

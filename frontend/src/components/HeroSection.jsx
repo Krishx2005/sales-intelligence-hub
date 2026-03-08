@@ -10,7 +10,7 @@ export default function HeroSection({ kpis, lastRefreshed }) {
   return (
     <div className="relative mb-10">
       <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-8">
-        {/* Left: Title block */}
+
         <div>
           <div className="flex items-center gap-3 mb-5">
             <div className="w-1.5 h-1.5 rounded-full bg-emerald pulse-dot" />
@@ -22,7 +22,7 @@ export default function HeroSection({ kpis, lastRefreshed }) {
           </h1>
 
           <p className="text-[15px] text-white/30 max-w-md leading-relaxed font-light">
-            Enterprise-grade analytics across revenue performance, customer intelligence, churn prediction, and forecasting.
+            Revenue trends, customer segmentation, churn risk, and quarterly forecasting — all in one place.
           </p>
 
           {lastRefreshed && (
@@ -33,7 +33,7 @@ export default function HeroSection({ kpis, lastRefreshed }) {
           )}
         </div>
 
-        {/* Right: Hero counters */}
+
         <div className="flex gap-10 lg:gap-14">
           {[
             { value: revCounter, format: (v) => formatCurrency(v, true), label: 'Revenue', color: 'text-white' },
@@ -53,7 +53,7 @@ export default function HeroSection({ kpis, lastRefreshed }) {
         </div>
       </div>
 
-      {/* Subtle divider */}
+
       <div className="section-divider mt-10" />
     </div>
   );

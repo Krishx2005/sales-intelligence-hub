@@ -1,5 +1,3 @@
-/** Formatting utilities for currency, numbers, and percentages */
-
 export function formatCurrency(value, compact = false) {
   if (value == null) return '—';
   if (compact && Math.abs(value) >= 1_000_000) {

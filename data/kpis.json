@@ -1,0 +1,15 @@
+{
+  "total_revenue": 2297200.86,
+  "total_profit": 286397.02,
+  "profit_margin": 12.47,
+  "total_orders": 5009,
+  "total_customers": 793,
+  "avg_order_value": 458.61,
+  "avg_discount": 15.62,
+  "yoy_growth": {
+    "2015": -2.83,
+    "2016": 29.47,
+    "2017": 20.36
+  },
+  "latest_growth_rate": 20.36
+}

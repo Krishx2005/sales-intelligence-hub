@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Sales Intelligence Hub - Tableau Workbook Reference
+
+  This is a reference configuration for building the Tableau dashboard.
+  To create the actual workbook:
+
+  1. Open Tableau Desktop
+  2. Connect to the three CSV files in this directory:
+     - superstore_orders.csv (main fact table)
+     - superstore_customers.csv (customer dimension with RFM segments)
+     - superstore_products.csv (product dimension)
+  3. Join tables:
+     - orders.customer_id = customers.Customer_ID
+     - orders.product_id = products.product_id
+  4. Build the following worksheets:
+-->
+<workbook>
+  <datasources>
+    <datasource name="Orders" file="superstore_orders.csv" />
+    <datasource name="Customers" file="superstore_customers.csv" />
+    <datasource name="Products" file="superstore_products.csv" />
+  </datasources>
+
+  <worksheets>
+    <worksheet name="Revenue by Region">
+      <type>Map</type>
+      <marks>Filled Map</marks>
+      <detail>State</detail>
+      <color>SUM(Sales)</color>
+      <tooltip>State, SUM(Sales), SUM(Profit), Profit Margin</tooltip>
+    </worksheet>
+
+    <worksheet name="Sales Trend">
+      <type>Line Chart</type>
+      <columns>MONTH(Order_Date)</columns>
+      <rows>SUM(Sales)</rows>
+      <color>Region</color>
+    </worksheet>
+
+    <worksheet name="Customer Segmentation">
+      <type>Scatter Plot</type>
+      <columns>AVG(frequency)</columns>
+      <rows>AVG(monetary)</rows>
+      <size>CNT(Customer_ID)</size>
+      <color>segment</color>
+      <tooltip>segment, CNT(Customer_ID), AVG(recency), AVG(churn_risk)</tooltip>
+    </worksheet>
+
+    <worksheet name="Churn Risk Matrix">
+      <type>Highlight Table</type>
+      <columns>churn_category</columns>
+      <rows>segment</rows>
+      <color>CNT(Customer_ID)</color>
+      <tooltip>CNT(Customer_ID), SUM(monetary)</tooltip>
+    </worksheet>
+
+    <worksheet name="Category Performance">
+      <type>Horizontal Bar</type>
+      <columns>SUM(Sales)</columns>
+      <rows>Sub_Category</rows>
+      <color>Category</color>
+      <sort>SUM(Sales) DESC</sort>
+    </worksheet>
+
+    <worksheet name="RFM Distribution">
+      <type>Box Plot</type>
+      <columns>segment</columns>
+      <rows>rfm_score</rows>
+    </worksheet>
+  </worksheets>
+
+  <dashboards>
+    <dashboard name="Executive Overview">
+      <size width="1200" height="800" />
+      <sheets>Revenue by Region, Sales Trend, Category Performance</sheets>
+    </dashboard>
+    <dashboard name="Customer Intelligence">
+      <size width="1200" height="800" />
+      <sheets>Customer Segmentation, Churn Risk Matrix, RFM Distribution</sheets>
+    </dashboard>
+  </dashboards>
+</workbook>

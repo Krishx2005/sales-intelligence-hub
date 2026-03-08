@@ -1,0 +1,29 @@
+{
+  "version": "1.0",
+  "description": "Sales Intelligence Hub - Power BI Template",
+  "note": "This is a placeholder template. To use with Power BI Desktop: 1) Open Power BI Desktop, 2) Get Data > CSV, 3) Import superstore_powerbi.csv from this directory, 4) Build visuals using the pre-defined measures below.",
+  "suggested_measures": {
+    "Total Revenue": "SUM('superstore_powerbi'[Sales])",
+    "Total Profit": "SUM('superstore_powerbi'[Profit])",
+    "Profit Margin %": "DIVIDE(SUM('superstore_powerbi'[Profit]), SUM('superstore_powerbi'[Sales]), 0) * 100",
+    "Total Orders": "DISTINCTCOUNT('superstore_powerbi'[Order_ID])",
+    "Average Order Value": "DIVIDE(SUM('superstore_powerbi'[Sales]), DISTINCTCOUNT('superstore_powerbi'[Order_ID]), 0)",
+    "YoY Growth %": "VAR CurrentYearSales = CALCULATE(SUM('superstore_powerbi'[Sales]), YEAR('superstore_powerbi'[Order_Date]) = MAX(YEAR('superstore_powerbi'[Order_Date]))) VAR PriorYearSales = CALCULATE(SUM('superstore_powerbi'[Sales]), YEAR('superstore_powerbi'[Order_Date]) = MAX(YEAR('superstore_powerbi'[Order_Date])) - 1) RETURN DIVIDE(CurrentYearSales - PriorYearSales, PriorYearSales, 0) * 100"
+  },
+  "suggested_visuals": [
+    { "type": "Card", "field": "Total Revenue", "page": "Executive Summary" },
+    { "type": "Card", "field": "Total Profit", "page": "Executive Summary" },
+    { "type": "Card", "field": "Profit Margin %", "page": "Executive Summary" },
+    { "type": "Card", "field": "Total Orders", "page": "Executive Summary" },
+    { "type": "Line Chart", "axis": "Order_Date (Month)", "values": ["Total Revenue"], "legend": "Region", "page": "Sales Trends" },
+    { "type": "Stacked Bar Chart", "axis": "Category", "values": ["Total Revenue", "Total Profit"], "page": "Category Performance" },
+    { "type": "Map", "location": "State", "size": "Total Revenue", "color": "Profit Margin %", "page": "Regional KPIs" },
+    { "type": "Treemap", "group": "segment", "values": "count", "page": "Customer Segments" },
+    { "type": "Matrix", "rows": "segment", "columns": "churn_category", "values": "count", "page": "Churn Risk" }
+  ],
+  "data_source": {
+    "type": "CSV",
+    "path": "superstore_powerbi.csv",
+    "encoding": "UTF-8"
+  }
+}

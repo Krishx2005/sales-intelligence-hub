@@ -1,0 +1,794 @@
+Customer_ID,customer_name,business_segment,segment,recency,frequency,monetary,rfm_score,churn_risk,churn_category
+AA-10315,Alex Avila,Consumer,Lost,185,5,5563.56,9,60.0,Medium
+AA-10375,Allen Armold,Consumer,Potential Loyalists,20,9,1056.39,12,15.0,Low
+AA-10480,Andrew Allen,Consumer,Lost,260,4,1790.5120000000002,5,90.0,High
+AA-10645,Anna Andreadi,Consumer,Loyal Customers,56,6,5086.9349999999995,11,40.0,Medium
+AB-10015,Aaron Bergman,Consumer,Lost,416,3,886.156,3,100.0,High
+AB-10060,Adam Bellavance,Home Office,Loyal Customers,55,8,7755.62,12,32.5,Medium
+AB-10105,Adrian Barton,Consumer,Champions,42,10,14473.570999999998,14,12.5,Low
+AB-10150,Aimee Bixby,Consumer,New Customers,42,5,966.71,8,50.0,Medium
+AB-10165,Alan Barnes,Consumer,Potential Loyalists,26,8,1113.838,11,22.5,Low
+AB-10255,Alejandro Ballentine,Home Office,Can't Lose Them,167,9,914.5319999999999,8,57.5,Medium
+AB-10600,Ann Blume,Corporate,New Customers,51,4,1515.862,7,57.5,Medium
+AC-10420,Alyssa Crouse,Corporate,Lost,233,3,925.8,3,100.0,High
+AC-10450,Amy Cox,Consumer,Loyal Customers,12,7,5527.846,13,15.0,Low
+AC-10615,Ann Chong,Corporate,New Customers,7,5,2537.6859999999997,10,32.5,Medium
+AC-10660,Anna Chung,Consumer,Lost,283,5,657.316,4,92.5,High
+AD-10180,Alan Dominguez,Home Office,Champions,30,8,6106.88,13,20.0,Low
+AF-10870,Art Ferguson,Consumer,Loyal Customers,42,7,2052.908,10,37.5,Medium
+AF-10885,Art Foster,Consumer,Lost,416,4,861.565,3,100.0,High
+AG-10270,Alejandro Grove,Consumer,Lost,279,5,2582.898,6,82.5,High
+AG-10300,Aleksandra Gannaway,Corporate,Lost,119,4,367.548,4,87.5,High
+AG-10330,Alex Grayson,Consumer,New Customers,9,5,660.972,8,42.5,Medium
+AG-10390,Allen Goldenen,Consumer,Lost,115,5,200.945,5,80.0,High
+AG-10495,Andrew Gjertsen,Corporate,Loyal Customers,79,8,2356.855,10,42.5,Medium
+AG-10525,Andy Gerbode,Corporate,Lost,846,4,1455.038,4,95.0,High
+AG-10675,Anna Gayman,Consumer,Loyal Customers,98,7,3489.0396000000005,10,45.0,Medium
+AG-10765,Anthony Garverick,Home Office,About to Sleep,78,4,170.584,5,75.0,High
+AG-10900,Arthur Gainer,Consumer,Loyal Customers,97,10,4510.797,13,25.0,Low
+AH-10030,Aaron Hawkins,Corporate,Loyal Customers,13,7,1744.7,11,25.0,Low
+AH-10075,Adam Hart,Corporate,Champions,35,10,3250.337,13,17.5,Low
+AH-10120,Adrian Hane,Home Office,Potential Loyalists,61,7,1735.5140000000001,8,55.0,Medium
+AH-10195,Alan Haines,Corporate,About to Sleep,56,4,1587.452,6,70.0,High
+AH-10210,Alan Hwang,Consumer,Champions,7,9,4805.344,15,0.0,
+AH-10465,Amy Hunt,Consumer,Lost,231,5,2495.3916,6,82.5,High
+AH-10585,Angele Hood,Consumer,New Customers,22,4,738.504,7,50.0,Medium
+AH-10690,Anna Häberlin,Corporate,At Risk,411,12,7888.294,11,50.0,Medium
+AI-10855,Arianne Irving,Consumer,Champions,14,10,4375.786,15,0.0,
+AJ-10780,Anthony Jacobs,Corporate,Loyal Customers,76,7,4867.344,11,40.0,Medium
+AJ-10795,Anthony Johnson,Corporate,At Risk,167,7,4501.391,10,52.5,Medium
+AJ-10945,Ashley Jarboe,Consumer,Loyal Customers,86,7,1839.24,9,50.0,Medium
+AJ-10960,Astrea Jones,Consumer,About to Sleep,75,3,629.2479999999999,5,75.0,High
+AM-10360,Alice McCarthy,Corporate,New Customers,29,5,814.012,7,55.0,Medium
+AM-10705,Anne McFarland,Consumer,At Risk,163,8,5664.022,11,45.0,Medium
+AO-10810,Anthony O'Donnell,Corporate,Lost,502,1,161.28,3,100.0,High
+AP-10720,Anne Pryor,Home Office,Potential Loyalists,42,8,1638.554,10,35.0,Medium
+AP-10915,Arthur Prichep,Consumer,Loyal Customers,99,10,3323.556,12,30.0,Low
+AR-10345,Alex Russell,Corporate,Lost,112,4,1055.694,5,82.5,High
+AR-10405,Allen Rosenblatt,Corporate,Lost,126,5,2236.128,7,70.0,High
+AR-10510,Andrew Roberts,Consumer,New Customers,15,5,264.86400000000003,8,42.5,Medium
+AR-10540,Andy Reiter,Consumer,Loyal Customers,7,6,6608.448,13,15.0,Low
+AR-10570,Anemone Ratner,Consumer,Lost,535,1,88.15,3,100.0,High
+AR-10825,Anthony Rawles,Corporate,Loyal Customers,59,8,4523.336,12,32.5,Medium
+AS-10045,Aaron Smayling,Corporate,Loyal Customers,89,7,3050.692,10,45.0,Medium
+AS-10090,Adam Shillingsburg,Consumer,Champions,29,9,3255.31,13,17.5,Low
+AS-10135,Adrian Shami,Home Office,New Customers,42,2,58.82,6,62.5,High
+AS-10225,Alan Schoenberger,Corporate,New Customers,23,5,4260.784,11,27.5,Low
+AS-10240,Alan Shonely,Consumer,Need Attention,193,7,584.6080000000001,6,72.5,High
+AS-10285,Alejandro Savely,Corporate,Loyal Customers,20,6,3214.236,12,20.0,Low
+AS-10630,Ann Steele,Home Office,Need Attention,93,7,833.398,7,60.0,Medium
+AT-10435,Alyssa Tate,Home Office,Potential Loyalists,22,6,1171.814,10,30.0,Low
+AT-10735,Annie Thurman,Consumer,Champions,14,10,3831.864,14,5.0,Low
+AW-10840,Anthony Witt,Consumer,New Customers,21,4,649.376,7,50.0,Medium
+AW-10930,Arthur Wiediger,Home Office,Loyal Customers,47,7,2852.968,11,32.5,Medium
+AY-10555,Andy Yotov,Corporate,New Customers,15,4,497.014,7,50.0,Medium
+AZ-10750,Annie Zypern,Consumer,Need Attention,161,6,1622.0179999999998,7,67.5,High
+BB-10990,Barry Blumstein,Corporate,Lost,106,5,744.3399999999999,5,80.0,High
+BB-11545,Brenda Bowman,Corporate,Champions,29,9,6765.728,14,12.5,Low
+BC-11125,Becky Castell,Home Office,At Risk,203,9,2933.676,11,42.5,Medium
+BD-11320,Bill Donatelli,Consumer,Champions,34,12,5718.521,14,12.5,Low
+BD-11500,Bradley Drucker,Consumer,Loyal Customers,36,6,4411.2429999999995,12,27.5,Low
+BD-11560,Brendan Dodson,Home Office,Lost,279,2,320.54,3,100.0,High
+BD-11605,Brian Dahlen,Consumer,Loyal Customers,98,7,3288.471,10,45.0,Medium
+BD-11620,Brian DeCherney,Consumer,Potential Loyalists,70,6,1538.11,8,55.0,Medium
+BD-11635,Brian Derr,Consumer,New Customers,10,3,582.646,7,50.0,Medium
+BD-11725,Bruce Degenhardt,Consumer,Potential Loyalists,94,6,1526.5,8,55.0,Medium
+BD-11770,Bryan Davis,Consumer,Need Attention,328,6,658.466,5,85.0,High
+BE-11335,Bill Eplett,Home Office,Lost,120,5,4204.676,8,65.0,High
+BE-11410,Bobby Elias,Consumer,Potential Loyalists,99,5,2261.438,8,57.5,Medium
+BE-11455,Brad Eason,Home Office,Need Attention,255,6,1727.652,6,80.0,High
+BF-10975,Barbara Fisher,Corporate,Need Attention,92,7,599.798,7,60.0,Medium
+BF-11005,Barry Franz,Home Office,New Customers,40,4,1333.88,7,57.5,Medium
+BF-11020,Barry Französisch,Corporate,Loyal Customers,75,8,2888.506,11,37.5,Medium
+BF-11080,Bart Folk,Consumer,New Customers,26,3,272.95,7,50.0,Medium
+BF-11170,Ben Ferrer,Home Office,Champions,17,11,5907.972,15,0.0,
+BF-11215,Benjamin Farhat,Home Office,About to Sleep,66,4,1585.162,6,70.0,High
+BF-11275,Beth Fritzler,Corporate,About to Sleep,58,3,791.9899999999999,5,75.0,High
+BG-11035,Barry Gonzalez,Consumer,Champions,29,8,2798.948,12,25.0,Low
+BG-11695,Brooke Gillingham,Corporate,Loyal Customers,37,6,1874.172,10,37.5,Medium
+BG-11740,Bruce Geld,Consumer,Potential Loyalists,58,6,1006.356,8,55.0,Medium
+BH-11710,Brosina Hoffman,Consumer,Champions,24,8,6255.351,14,7.5,Low
+BK-11260,Berenike Kampe,Consumer,Need Attention,78,6,659.1379999999999,7,60.0,Medium
+BM-11140,Becky Martin,Consumer,Lost,308,4,11789.63,7,80.0,High
+BM-11575,Brendan Murry,Corporate,Need Attention,101,6,808.162,7,60.0,Medium
+BM-11650,Brian Moss,Corporate,Champions,34,11,7294.185,14,12.5,Low
+BM-11785,Bryan Mills,Consumer,Can't Lose Them,219,10,1338.842,9,52.5,Medium
+BN-11470,Brad Norvell,Corporate,New Customers,25,4,265.296,7,50.0,Medium
+BN-11515,Bradley Nguyen,Consumer,New Customers,10,5,1459.344,9,37.5,Medium
+BO-11350,Bill Overfelt,Corporate,Lost,138,5,2682.728,7,70.0,High
+BO-11425,Bobby Odegard,Consumer,About to Sleep,76,2,130.83,5,75.0,High
+BP-11050,Barry Pond,Corporate,Potential Loyalists,84,5,983.42,7,62.5,High
+BP-11095,Bart Pistole,Corporate,Loyal Customers,18,12,2442.044,13,10.0,Low
+BP-11155,Becky Pak,Consumer,Potential Loyalists,90,6,1697.8609999999999,8,55.0,Medium
+BP-11185,Ben Peterman,Corporate,Champions,2,9,3675.861,14,5.0,Low
+BP-11230,Benjamin Patterson,Consumer,New Customers,40,5,1181.49,8,50.0,Medium
+BP-11290,Beth Paige,Consumer,Loyal Customers,13,7,2475.157,11,25.0,Low
+BS-11365,Bill Shonely,Corporate,Lost,559,5,10501.653,8,72.5,High
+BS-11380,Bill Stewart,Corporate,New Customers,29,5,3887.834,10,40.0,Medium
+BS-11590,Brendan Sweed,Corporate,Loyal Customers,36,6,2454.928,10,37.5,Medium
+BS-11665,Brian Stugart,Consumer,Lost,583,3,3288.1099999999997,6,85.0,High
+BS-11755,Bruce Stewart,Consumer,Loyal Customers,2,7,2562.382,11,25.0,Low
+BS-11800,Bryan Spruell,Home Office,Lost,266,2,949.4300000000001,3,100.0,High
+BT-11305,Beth Thompson,Home Office,Lost,337,5,2567.656,6,82.5,High
+BT-11395,Bill Tyler,Corporate,At Risk,303,6,2186.6130000000003,7,75.0,High
+BT-11440,Bobby Trafton,Consumer,Lost,561,4,603.876,3,100.0,High
+BT-11485,Brad Thomas,Home Office,Lost,660,2,415.19599999999997,3,100.0,High
+BT-11530,Bradley Talbott,Home Office,Potential Loyalists,92,5,2684.4919999999997,8,57.5,Medium
+BT-11680,Brian Thompson,Consumer,Loyal Customers,21,7,3196.752,12,20.0,Low
+BV-11245,Benjamin Venier,Corporate,Lost,335,5,1523.2730000000001,5,87.5,High
+BW-11065,Barry Weirich,Consumer,Lost,213,3,385.516,4,87.5,High
+BW-11110,Bart Watters,Corporate,At Risk,122,8,4750.358,11,45.0,Medium
+BW-11200,Ben Wallace,Consumer,Need Attention,204,6,1738.406,7,67.5,High
+CA-11965,Carol Adams,Corporate,Loyal Customers,97,6,3789.7228,10,45.0,Medium
+CA-12055,Cathy Armstrong,Home Office,Lost,402,5,1679.7240000000002,5,87.5,High
+CA-12265,Christina Anderson,Consumer,Loyal Customers,57,9,2648.2872,11,35.0,Medium
+CA-12310,Christine Abelman,Corporate,New Customers,14,4,1421.954,8,45.0,Medium
+CA-12775,Cynthia Arntzen,Consumer,At Risk,121,7,3041.566,9,57.5,Medium
+CB-12025,Cassandra Brandow,Consumer,Champions,48,10,6076.139,14,12.5,Low
+CB-12415,Christy Brittain,Consumer,Loyal Customers,27,8,1949.2,12,17.5,Low
+CB-12535,Claudia Bergmann,Corporate,At Risk,198,8,4246.4555,10,50.0,Medium
+CC-12100,Chad Cunningham,Home Office,At Risk,458,6,1770.945,7,75.0,High
+CC-12145,Charles Crestani,Consumer,At Risk,107,7,2471.65,8,62.5,High
+CC-12220,Chris Cortes,Consumer,Champions,21,12,3913.418,14,5.0,Low
+CC-12370,Christopher Conant,Consumer,New Customers,44,5,12129.072000000002,11,35.0,Medium
+CC-12430,Chuck Clark,Home Office,Champions,1,10,2870.05,14,5.0,Low
+CC-12475,Cindy Chapman,Consumer,Potential Loyalists,40,9,1659.438,11,27.5,Low
+CC-12550,Clay Cheatham,Consumer,New Customers,28,3,113.832,6,62.5,High
+CC-12610,Corey Catlett,Corporate,Loyal Customers,35,7,2540.631,10,37.5,Medium
+CC-12670,Craig Carreira,Consumer,Loyal Customers,30,7,2269.7015,10,37.5,Medium
+CC-12685,Craig Carroll,Consumer,Lost,800,4,2854.1150000000002,6,85.0,High
+CD-11920,Carlos Daly,Consumer,New Customers,41,5,2033.968,9,45.0,Medium
+CD-11980,Carol Darley,Consumer,About to Sleep,55,3,639.766,5,75.0,High
+CD-12280,Christina DeMoss,Consumer,New Customers,43,2,1205.584,7,57.5,Medium
+CD-12790,Cynthia Delaney,Home Office,Lost,400,5,1860.732,6,82.5,High
+CG-12040,Catherine Glotzbach,Home Office,Need Attention,50,6,904.4680000000001,8,47.5,Medium
+CG-12520,Claire Gute,Consumer,Lost,339,3,1148.7800000000002,4,95.0,High
+CH-12070,Cathy Hwang,Home Office,Lost,692,3,1537.236,4,95.0,High
+CJ-11875,Carl Jackson,Corporate,Lost,366,1,16.52,3,100.0,High
+CJ-12010,Caroline Jumper,Consumer,At Risk,190,8,11164.974,11,45.0,Medium
+CK-12205,Chloris Kastensmidt,Consumer,Champions,40,13,3154.855,13,17.5,Low
+CK-12325,Christine Kargatis,Home Office,Lost,121,5,2945.321,8,65.0,High
+CK-12595,Clytie Kelty,Consumer,Loyal Customers,44,11,2372.75,12,22.5,Low
+CK-12760,Cyma Kinney,Corporate,Potential Loyalists,83,9,1582.109,10,40.0,Medium
+CL-11890,Carl Ludwig,Consumer,Lost,107,4,1262.0140000000001,5,82.5,High
+CL-12565,Clay Ludtke,Consumer,At Risk,285,12,10880.546,11,50.0,Medium
+CL-12700,Craig Leslie,Home Office,Lost,106,5,2353.586,7,70.0,High
+CM-11815,Candace McMahon,Corporate,Need Attention,132,6,1673.888,7,67.5,High
+CM-11935,Carlos Meador,Consumer,Lost,709,2,565.392,3,100.0,High
+CM-12115,Chad McGuire,Consumer,New Customers,9,4,1661.6100000000001,8,45.0,Medium
+CM-12160,Charles McCrossin,Consumer,Loyal Customers,27,6,2533.314,11,25.0,Low
+CM-12190,Charlotte Melton,Consumer,Potential Loyalists,9,6,1475.144,10,30.0,Low
+CM-12235,Chris McAfee,Consumer,Lost,386,5,2305.712,6,82.5,High
+CM-12385,Christopher Martinez,Consumer,New Customers,38,4,8954.019999999999,10,42.5,Medium
+CM-12445,Chuck Magee,Consumer,Lost,437,3,287.99,3,100.0,High
+CM-12655,Corinna Mitchell,Home Office,Loyal Customers,28,6,6339.5576,12,27.5,Low
+CM-12715,Craig Molinari,Corporate,Lost,1036,4,3984.4524,6,85.0,High
+CP-12085,Cathy Prescott,Corporate,Loyal Customers,83,8,5402.254,12,32.5,Medium
+CP-12340,Christine Phan,Corporate,At Risk,161,8,5888.275,11,45.0,Medium
+CR-12580,Clay Rozendal,Home Office,About to Sleep,58,4,2148.852,7,65.0,High
+CR-12625,Corey Roper,Home Office,Lost,471,3,475.9,3,100.0,High
+CR-12730,Craig Reiter,Consumer,About to Sleep,79,4,1600.55,6,70.0,High
+CR-12820,Cyra Reiten,Home Office,About to Sleep,86,3,1397.8724,6,70.0,High
+CS-11845,Cari Sayre,Corporate,Potential Loyalists,92,5,1278.954,7,62.5,High
+CS-11860,Cari Schnelling,Consumer,Need Attention,163,6,537.632,6,72.5,High
+CS-11950,Carlos Soltero,Consumer,Champions,26,11,3036.547,14,5.0,Low
+CS-12130,Chad Sievert,Consumer,Lost,490,4,884.64,3,100.0,High
+CS-12175,Charles Sheldon,Corporate,Lost,233,5,844.4580000000001,4,92.5,High
+CS-12250,Chris Selesnick,Corporate,Champions,27,12,2754.216,14,5.0,Low
+CS-12355,Christine Sundaresam,Consumer,Champions,7,11,3202.1620000000003,14,5.0,Low
+CS-12400,Christopher Schild,Home Office,Champions,3,9,3651.8585000000003,14,5.0,Low
+CS-12460,Chuck Sachs,Consumer,New Customers,28,2,550.644,6,62.5,High
+CS-12490,Cindy Schnelling,Corporate,Lost,425,4,1077.2285,4,95.0,High
+CS-12505,Cindy Stewart,Consumer,Loyal Customers,59,6,5690.054999999999,11,40.0,Medium
+CT-11995,Carol Triggs,Consumer,Loyal Customers,97,8,3241.898,11,37.5,Medium
+CV-12295,Christina VanderZanden,Consumer,Lost,255,5,2830.6279999999997,7,77.5,High
+CV-12805,Cynthia Voltz,Corporate,Loyal Customers,6,9,2370.3136,13,10.0,Low
+CW-11905,Carl Weiss,Home Office,Potential Loyalists,23,6,1136.592,10,30.0,Low
+CY-12745,Craig Yedwab,Corporate,Loyal Customers,61,8,2900.026,11,37.5,Medium
+Co-12640,Corey-Lock,Consumer,Lost,550,5,1300.076,5,87.5,High
+DA-13450,Dianna Arnett,Home Office,Lost,353,4,156.76,3,100.0,High
+DB-12910,Daniel Byrd,Home Office,Loyal Customers,22,8,2171.599,12,17.5,Low
+DB-12970,Darren Budd,Corporate,Lost,242,5,2839.2272,7,77.5,High
+DB-13060,Dave Brooks,Consumer,Loyal Customers,17,7,4531.646,13,15.0,Low
+DB-13120,David Bremer,Corporate,Loyal Customers,49,7,2973.094,11,32.5,Medium
+DB-13210,Dean Braden,Consumer,Loyal Customers,10,10,2332.577,13,10.0,Low
+DB-13270,Deborah Brumfield,Home Office,Champions,54,8,4655.897,13,20.0,Low
+DB-13360,Dennis Bolton,Home Office,Lost,265,5,1081.466,5,87.5,High
+DB-13405,Denny Blanton,Consumer,Lost,188,4,1711.692,5,82.5,High
+DB-13555,Dorothy Badders,Corporate,At Risk,108,7,3908.8028,9,57.5,Medium
+DB-13615,Doug Bickford,Consumer,Loyal Customers,34,7,1989.05,10,37.5,Medium
+DB-13660,Duane Benoit,Consumer,Potential Loyalists,13,7,1155.202,10,30.0,Low
+DC-12850,Dan Campbell,Consumer,Champions,38,9,3336.168,13,17.5,Low
+DC-13285,Debra Catini,Consumer,New Customers,24,5,1174.618,9,37.5,Medium
+DD-13570,Dorothy Dickinson,Consumer,Need Attention,42,6,269.542,8,47.5,Medium
+DE-13255,Deanra Eno,Home Office,Lost,720,5,2550.874,6,82.5,High
+DF-13135,David Flashing,Consumer,Lost,701,3,2390.534,5,90.0,High
+DG-13300,Deirdre Greer,Corporate,New Customers,33,5,3195.818,10,40.0,Medium
+DH-13075,Dave Hallsten,Corporate,At Risk,278,6,4932.872,9,65.0,High
+DH-13675,Duane Huffman,Home Office,Lost,777,4,1043.096,4,95.0,High
+DJ-13420,Denny Joy,Corporate,Lost,638,4,2012.52,5,90.0,High
+DJ-13510,Don Jones,Corporate,Loyal Customers,49,8,2501.6879999999996,11,30.0,Low
+DJ-13630,Doug Jacobs,Consumer,New Customers,13,3,3356.398,10,35.0,Medium
+DK-12835,Damala Kotsonis,Corporate,Champions,22,12,3256.48,14,5.0,Low
+DK-12895,Dana Kaydos,Consumer,New Customers,46,5,4282.176,10,40.0,Medium
+DK-12985,Darren Koutras,Consumer,New Customers,8,5,1687.04,9,37.5,Medium
+DK-13090,Dave Kipp,Consumer,Loyal Customers,43,7,2650.557,10,37.5,Medium
+DK-13150,David Kendrick,Corporate,New Customers,11,2,797.832,7,50.0,Medium
+DK-13225,Dean Katz,Corporate,Champions,11,9,4802.394,15,0.0,
+DK-13375,Dennis Kane,Consumer,Champions,20,8,3318.486,13,12.5,Low
+DL-12865,Dan Lawera,Consumer,Potential Loyalists,101,8,1503.112,9,47.5,Medium
+DL-12925,Daniel Lacy,Consumer,Loyal Customers,58,6,3272.2,10,45.0,Medium
+DL-13315,Delfina Latchford,Consumer,Potential Loyalists,23,8,1458.258,11,22.5,Low
+DL-13330,Denise Leinenbach,Consumer,About to Sleep,58,4,585.02,5,75.0,High
+DL-13495,Dionis Lloyd,Corporate,Loyal Customers,77,8,3539.322,11,37.5,Medium
+DM-12955,Dario Medina,Corporate,Need Attention,115,7,1322.034,7,67.5,High
+DM-13015,Darrin Martin,Consumer,Loyal Customers,58,7,6345.103,11,40.0,Medium
+DM-13345,Denise Monton,Corporate,Champions,23,8,4074.4719999999998,13,12.5,Low
+DM-13525,Don Miller,Corporate,Lost,482,3,1376.792,4,95.0,High
+DN-13690,Duane Noonan,Consumer,At Risk,218,7,2139.79,8,62.5,High
+DO-13435,Denny Ordway,Consumer,Can't Lose Them,134,9,1300.0315,9,52.5,Medium
+DO-13645,Doug O'Connell,Consumer,Potential Loyalists,27,7,1267.316,10,30.0,Low
+DP-13000,Darren Powers,Consumer,Can't Lose Them,127,9,1050.636,9,52.5,Medium
+DP-13105,Dave Poirier,Corporate,Loyal Customers,7,8,2215.002,12,17.5,Low
+DP-13165,David Philippe,Consumer,Lost,813,2,1058.616,4,95.0,High
+DP-13390,Dennis Pardue,Home Office,At Risk,359,9,5480.723999999999,11,50.0,Medium
+DR-12880,Dan Reichenbach,Corporate,Champions,4,9,6528.034000000001,15,0.0,
+DR-12940,Daniel Raglin,Home Office,Champions,51,8,8350.868,13,20.0,Low
+DS-13030,Darrin Sayre,Home Office,About to Sleep,94,4,1762.213,7,65.0,High
+DS-13180,David Smith,Corporate,Champions,24,9,2881.8128,14,5.0,Low
+DV-13045,Darrin Van Huff,Corporate,New Customers,20,5,1119.483,9,37.5,Medium
+DV-13465,Dianna Vittorini,Consumer,Loyal Customers,30,6,3341.587,11,32.5,Medium
+DW-13195,David Wiener,Corporate,Potential Loyalists,70,6,1080.751,8,55.0,Medium
+DW-13480,Dianna Wilson,Home Office,Lost,218,5,5271.628,9,60.0,Medium
+DW-13540,Don Weiss,Consumer,About to Sleep,99,5,344.08,6,67.5,High
+DW-13585,Dorothy Wardle,Corporate,Need Attention,243,7,1204.854,6,80.0,High
+Dl-13600,Dorris liebe,Corporate,Lost,120,5,755.602,5,80.0,High
+Dp-13240,Dean percer,Home Office,Loyal Customers,85,11,7198.7609999999995,13,25.0,Low
+EA-14035,Erin Ashbrook,Corporate,At Risk,153,13,2846.705,11,42.5,Medium
+EB-13705,Ed Braxton,Corporate,Champions,49,9,3644.978,13,17.5,Low
+EB-13750,Edward Becker,Corporate,Champions,36,10,3236.314,13,17.5,Low
+EB-13840,Ellis Ballard,Corporate,Potential Loyalists,91,5,4358.128,10,47.5,Medium
+EB-13870,Emily Burns,Consumer,Loyal Customers,101,10,2767.219,12,30.0,Low
+EB-13930,Eric Barreto,Consumer,Lost,162,5,944.6000000000001,5,80.0,High
+EB-13975,Erica Bern,Corporate,New Customers,1,4,1643.255,8,45.0,Medium
+EB-14110,Eugene Barchas,Consumer,At Risk,114,6,3071.126,9,57.5,Medium
+EB-14170,Evan Bailliet,Consumer,Potential Loyalists,83,6,1186.326,8,55.0,Medium
+EC-14050,Erin Creighton,Consumer,New Customers,54,5,461.914,7,55.0,Medium
+ED-13885,Emily Ducich,Home Office,At Risk,136,8,3484.92,10,50.0,Medium
+EG-13900,Emily Grady,Consumer,New Customers,23,5,1832.02,10,32.5,Medium
+EH-13765,Edward Hooks,Corporate,At Risk,136,12,10310.880000000001,12,37.5,Medium
+EH-13945,Eric Hoffmann,Consumer,Can't Lose Them,218,8,684.1709999999999,7,65.0,High
+EH-13990,Erica Hackney,Consumer,Need Attention,406,6,825.9499999999999,5,85.0,High
+EH-14005,Erica Hernandez,Home Office,Potential Loyalists,3,7,1219.53,10,30.0,Low
+EH-14125,Eugene Hildebrand,Home Office,At Risk,153,10,3082.653,11,42.5,Medium
+EH-14185,Evan Henry,Consumer,Need Attention,106,6,923.884,6,72.5,High
+EJ-13720,Ed Jacobs,Consumer,Lost,303,4,2162.174,5,90.0,High
+EJ-14155,Eva Jacobs,Consumer,Potential Loyalists,58,5,2656.691,8,57.5,Medium
+EK-13795,Eileen Kiefer,Home Office,New Customers,45,4,1303.478,7,57.5,Medium
+EL-13735,Ed Ludwig,Home Office,About to Sleep,78,2,124.28,5,75.0,High
+EM-13810,Eleni McCrary,Corporate,Lost,133,5,2567.0099999999998,7,70.0,High
+EM-13825,Elizabeth Moffitt,Corporate,Loyal Customers,56,8,2339.598,10,42.5,Medium
+EM-13960,Eric Murdock,Consumer,Lost,152,5,933.704,5,80.0,High
+EM-14065,Erin Mull,Consumer,New Customers,48,4,228.99,6,62.5,High
+EM-14095,Eudokia Martin,Corporate,Lost,114,4,1041.0420000000001,5,82.5,High
+EM-14140,Eugene Moren,Home Office,Loyal Customers,49,6,4588.436000000001,12,27.5,Low
+EM-14200,Evan Minnotte,Home Office,Lost,159,3,366.822,4,87.5,High
+EN-13780,Edward Nazzal,Consumer,Lost,288,4,2199.366,5,90.0,High
+EP-13915,Emily Phan,Consumer,Champions,13,17,5478.0608,15,0.0,
+ER-13855,Elpida Rittenbach,Corporate,Lost,422,3,1245.788,4,95.0,High
+ES-14020,Erica Smith,Consumer,New Customers,41,5,3510.4579999999996,10,40.0,Medium
+ES-14080,Erin Smith,Corporate,Champions,29,9,4657.924,14,12.5,Low
+FA-14230,Frank Atkinson,Corporate,Loyal Customers,98,7,2984.054,10,45.0,Medium
+FC-14245,Frank Carlisle,Home Office,Loyal Customers,71,7,3418.742,10,45.0,Medium
+FC-14335,Fred Chung,Corporate,At Risk,185,7,3889.366,9,57.5,Medium
+FG-14260,Frank Gastineau,Home Office,Potential Loyalists,35,7,1383.144,9,42.5,Medium
+FH-14275,Frank Hawley,Corporate,Champions,38,10,4256.272,13,17.5,Low
+FH-14350,Fred Harton,Consumer,Lost,213,4,2271.284,6,77.5,High
+FH-14365,Fred Hopkins,Corporate,Champions,6,8,6987.196,14,7.5,Low
+FM-14215,Filia McAdams,Corporate,Loyal Customers,8,10,2456.638,13,10.0,Low
+FM-14290,Frank Merwin,Home Office,Champions,37,9,3736.198,13,17.5,Low
+FM-14380,Fred McMath,Consumer,At Risk,146,9,2523.266,10,47.5,Medium
+FO-14305,Frank Olsen,Consumer,Loyal Customers,39,10,2678.438,12,22.5,Low
+FP-14320,Frank Preis,Consumer,Champions,24,8,4046.746,13,12.5,Low
+FW-14395,Fred Wasserman,Corporate,Lost,363,3,79.75,3,100.0,High
+GA-14515,George Ashbrook,Consumer,At Risk,150,8,3919.7760000000003,10,50.0,Medium
+GA-14725,Guy Armstrong,Consumer,Potential Loyalists,6,11,1398.382,12,15.0,Low
+GB-14530,George Bell,Corporate,Potential Loyalists,63,11,1568.44,10,40.0,Medium
+GB-14575,Giulietta Baptist,Consumer,New Customers,14,5,4716.288,12,22.5,Low
+GD-14590,Giulietta Dortch,Corporate,New Customers,6,4,1888.07,9,40.0,Medium
+GG-14650,Greg Guthrie,Corporate,Loyal Customers,44,9,2224.0,12,22.5,Low
+GH-14410,Gary Hansen,Home Office,Loyal Customers,76,9,2819.4669999999996,12,30.0,Low
+GH-14425,Gary Hwang,Consumer,New Customers,51,4,4172.8460000000005,9,47.5,Medium
+GH-14485,Gene Hale,Corporate,Lost,388,2,1361.2440000000001,4,95.0,High
+GH-14665,Greg Hansen,Consumer,New Customers,3,2,146.94080000000002,7,50.0,Medium
+GK-14620,Grace Kelly,Corporate,At Risk,113,9,6497.27,12,37.5,Medium
+GM-14440,Gary McGarr,Consumer,Loyal Customers,84,7,3582.8199999999997,10,45.0,Medium
+GM-14455,Gary Mitchum,Home Office,Loyal Customers,17,6,3078.624,12,20.0,Low
+GM-14500,Gene McClure,Consumer,Can't Lose Them,107,10,1255.682,9,52.5,Medium
+GM-14680,Greg Matthias,Consumer,At Risk,153,6,3163.628,9,57.5,Medium
+GM-14695,Greg Maxwell,Corporate,Lost,118,3,6049.966,8,67.5,High
+GP-14740,Guy Phonely,Corporate,Lost,766,2,236.53,3,100.0,High
+GR-14560,Georgia Rosenberg,Corporate,Lost,1136,2,1284.38,4,95.0,High
+GT-14635,Grant Thornton,Corporate,About to Sleep,57,3,9351.212,9,55.0,Medium
+GT-14710,Greg Tran,Consumer,Champions,37,11,11820.119999999999,14,12.5,Low
+GT-14755,Guy Thornton,Consumer,New Customers,35,4,226.436,6,62.5,High
+GW-14605,Giulietta Weimer,Consumer,Loyal Customers,29,7,2189.019,10,37.5,Medium
+GZ-14470,Gary Zandusky,Consumer,Champions,8,9,4355.150000000001,15,0.0,
+GZ-14545,George Zrebassa,Corporate,Lost,158,4,2454.6220000000003,6,77.5,High
+HA-14905,Helen Abelman,Consumer,Loyal Customers,70,7,2163.3,9,50.0,Medium
+HA-14920,Helen Andreada,Consumer,Loyal Customers,21,8,2584.158,12,17.5,Low
+HD-14785,Harold Dahlen,Home Office,Lost,770,3,251.36,3,100.0,High
+HE-14800,Harold Engle,Corporate,New Customers,13,4,883.5319999999999,7,50.0,Medium
+HF-14995,Herbert Flentye,Consumer,Loyal Customers,22,7,2533.1639999999998,12,17.5,Low
+HG-14845,Harry Greene,Consumer,About to Sleep,55,5,785.628,6,67.5,High
+HG-14965,Henry Goldwyn,Corporate,Champions,24,12,3247.642,14,5.0,Low
+HG-15025,Hunter Glantz,Consumer,Champions,7,7,3690.284,13,12.5,Low
+HH-15010,Hilary Holden,Corporate,About to Sleep,73,2,218.668,5,75.0,High
+HJ-14875,Heather Jas,Home Office,Lost,127,5,358.1,5,80.0,High
+HK-14890,Heather Kirkland,Corporate,At Risk,152,8,4877.784,11,45.0,Medium
+HL-15040,Hunter Lopez,Consumer,Loyal Customers,44,6,12873.297999999999,12,27.5,Low
+HM-14860,Harry Marie,Corporate,Champions,3,10,8236.7648,15,0.0,
+HM-14980,Henry MacAllister,Consumer,Lost,248,4,736.276,3,100.0,High
+HP-14815,Harold Pawlan,Home Office,Loyal Customers,31,7,1990.314,11,30.0,Low
+HR-14770,Hallie Redmond,Home Office,New Customers,14,5,1299.288,9,37.5,Medium
+HR-14830,Harold Ryan,Corporate,At Risk,160,7,5248.787,11,45.0,Medium
+HW-14935,Helen Wasserman,Corporate,At Risk,118,8,9300.254,11,45.0,Medium
+HZ-14950,Henia Zydlo,Consumer,New Customers,36,5,886.52,7,55.0,Medium
+IG-15085,Ivan Gibson,Consumer,About to Sleep,72,4,744.574,5,75.0,High
+IL-15100,Ivan Liston,Consumer,At Risk,143,7,5040.736,11,45.0,Medium
+IM-15055,Ionia McGrath,Consumer,Lost,410,3,2872.63,6,85.0,High
+IM-15070,Irene Maddox,Consumer,At Risk,391,7,4930.474,10,57.5,Medium
+JA-15970,Joseph Airdo,Consumer,Loyal Customers,93,8,6491.026,12,32.5,Medium
+JB-15400,Jennifer Braxton,Corporate,Loyal Customers,8,10,1791.605,13,10.0,Low
+JB-15925,Joni Blumstein,Consumer,Lost,738,3,900.552,3,100.0,High
+JB-16000,Joy Bell-,Consumer,Need Attention,44,7,644.1188,9,40.0,Medium
+JB-16045,Julia Barnett,Home Office,New Customers,8,5,2518.115,10,32.5,Medium
+JC-15340,Jasper Cacioppo,Consumer,Lost,115,4,71.263,4,87.5,High
+JC-15385,Jenna Caffey,Consumer,Lost,176,1,1058.108,5,82.5,High
+JC-15775,John Castell,Consumer,At Risk,159,9,2772.055,11,42.5,Medium
+JC-16105,Julie Creighton,Corporate,About to Sleep,58,5,858.576,6,67.5,High
+JD-15790,John Dryer,Consumer,Lost,118,5,2152.352,7,70.0,High
+JD-15895,Jonathan Doherty,Corporate,At Risk,395,11,7610.8640000000005,11,50.0,Medium
+JD-16015,Joy Daniels,Consumer,Need Attention,113,6,385.43,6,72.5,High
+JD-16060,Julia Dunbar,Consumer,Lost,301,3,695.442,3,100.0,High
+JD-16150,Justin Deggeller,Corporate,Champions,42,8,8828.0305,13,20.0,Low
+JE-15475,Jeremy Ellison,Consumer,Need Attention,194,6,1388.682,7,67.5,High
+JE-15610,Jim Epp,Corporate,Champions,49,7,7754.976,13,20.0,Low
+JE-15715,Joe Elijah,Consumer,Champions,47,10,8697.842999999999,14,12.5,Low
+JE-15745,Joel Eaton,Consumer,Champions,52,13,6760.8150000000005,14,12.5,Low
+JE-16165,Justin Ellison,Corporate,New Customers,21,3,2697.248,9,40.0,Medium
+JF-15190,Jamie Frazer,Consumer,Loyal Customers,66,7,2279.5860000000002,10,42.5,Medium
+JF-15295,Jason Fortune-,Consumer,Lost,226,5,955.124,4,92.5,High
+JF-15355,Jay Fein,Consumer,At Risk,106,6,1911.844,8,62.5,High
+JF-15415,Jennifer Ferguson,Consumer,Loyal Customers,3,6,2371.448,11,25.0,Low
+JF-15490,Jeremy Farry,Consumer,Can't Lose Them,122,11,1082.918,9,52.5,Medium
+JF-15565,Jill Fjeld,Consumer,Loyal Customers,55,8,4198.332,11,37.5,Medium
+JG-15115,Jack Garza,Consumer,Lost,759,3,2358.676,5,90.0,High
+JG-15160,James Galang,Consumer,Champions,2,11,6366.392,15,0.0,
+JG-15310,Jason Gross,Corporate,Loyal Customers,3,6,2240.58,11,25.0,Low
+JG-15805,John Grady,Corporate,Need Attention,224,6,1507.018,7,67.5,High
+JH-15430,Jennifer Halladay,Consumer,New Customers,6,4,309.281,7,50.0,Medium
+JH-15820,John Huston,Consumer,Need Attention,175,6,528.91,6,72.5,High
+JH-15910,Jonathan Howell,Consumer,Need Attention,42,7,959.477,9,40.0,Medium
+JH-15985,Joseph Holt,Consumer,Loyal Customers,30,6,7954.9980000000005,12,27.5,Low
+JH-16180,Justin Hirsh,Consumer,Lost,405,4,2256.3940000000002,5,90.0,High
+JJ-15445,Jennifer Jackson,Consumer,Lost,484,5,709.178,4,92.5,High
+JJ-15760,Joel Jenkins,Home Office,Lost,754,2,195.0,3,100.0,High
+JK-15205,Jamie Kunitz,Consumer,Potential Loyalists,62,5,4427.142,10,47.5,Medium
+JK-15325,Jason Klamczynski,Corporate,Lost,288,3,383.812,3,100.0,High
+JK-15370,Jay Kimmel,Consumer,Loyal Customers,45,8,2709.632,11,30.0,Low
+JK-15625,Jim Karlsson,Consumer,Loyal Customers,62,7,3760.028,11,37.5,Medium
+JK-15640,Jim Kriz,Home Office,At Risk,181,9,4760.434,12,37.5,Medium
+JK-15730,Joe Kamberova,Consumer,Loyal Customers,85,10,4867.2,13,25.0,Low
+JK-16090,Juliana Krohn,Consumer,New Customers,29,3,3747.668,9,47.5,Medium
+JK-16120,Julie Kriz,Home Office,At Risk,118,10,2932.484,11,42.5,Medium
+JL-15130,Jack Lebron,Consumer,Potential Loyalists,9,6,1214.956,10,30.0,Low
+JL-15175,James Lanier,Home Office,New Customers,7,5,1571.523,9,37.5,Medium
+JL-15235,Janet Lee,Consumer,Lost,120,5,2203.7,7,70.0,High
+JL-15505,Jeremy Lonsdale,Consumer,Loyal Customers,50,6,3173.874,11,32.5,Medium
+JL-15835,John Lee,Consumer,Champions,22,11,9799.923,15,0.0,
+JL-15850,John Lucas,Consumer,At Risk,615,6,2725.256,7,75.0,High
+JM-15250,Janet Martin,Consumer,Loyal Customers,38,6,3159.1220000000003,11,32.5,Medium
+JM-15265,Janet Molinari,Corporate,New Customers,38,5,1804.146,9,45.0,Medium
+JM-15535,Jessica Myrick,Consumer,Potential Loyalists,103,7,1733.443,9,47.5,Medium
+JM-15580,Jill Matthias,Consumer,New Customers,1,5,303.948,8,42.5,Medium
+JM-15655,Jim Mitchum,Corporate,New Customers,9,5,864.947,8,42.5,Medium
+JM-15865,John Murray,Consumer,At Risk,110,7,7625.076000000001,11,45.0,Medium
+JM-16195,Justin MacKendrick,Consumer,Loyal Customers,58,10,2833.9260000000004,12,30.0,Low
+JO-15145,Jack O'Briant,Corporate,Loyal Customers,58,9,3254.949,12,30.0,Low
+JO-15280,Jas O'Carroll,Consumer,Loyal Customers,93,6,1934.272,9,50.0,Medium
+JO-15550,Jesus Ocampo,Home Office,Lost,216,5,1090.838,6,75.0,High
+JP-15460,Jennifer Patt,Corporate,Potential Loyalists,38,7,1669.135,10,35.0,Medium
+JP-15520,Jeremy Pistek,Consumer,Champions,9,7,3635.594,13,12.5,Low
+JP-16135,Julie Prescott,Home Office,Potential Loyalists,103,9,1707.71,10,40.0,Medium
+JR-15670,Jim Radford,Consumer,Lost,594,2,1156.658,4,95.0,High
+JR-15700,Jocasta Rupert,Consumer,About to Sleep,69,1,863.88,5,75.0,High
+JR-16210,Justin Ritter,Corporate,New Customers,34,5,2201.686,9,45.0,Medium
+JS-15595,Jill Stevenson,Corporate,Lost,120,4,1417.654,5,82.5,High
+JS-15685,Jim Sink,Corporate,New Customers,43,4,1131.0639999999999,7,57.5,Medium
+JS-15880,John Stevenson,Consumer,Lost,535,5,3868.02,7,77.5,High
+JS-15940,Joni Sundaresam,Home Office,Lost,464,5,469.169,4,92.5,High
+JS-16030,Joy Smith,Consumer,Loyal Customers,29,6,2516.494,10,37.5,Medium
+JW-15220,Jane Waco,Corporate,Loyal Customers,43,6,7721.714,12,27.5,Low
+JW-15955,Joni Wasserman,Consumer,Potential Loyalists,6,7,1244.086,11,22.5,Low
+JW-16075,Julia West,Consumer,Lost,462,4,1428.731,4,95.0,High
+KA-16525,Kelly Andreada,Consumer,Potential Loyalists,37,7,1519.506,10,35.0,Medium
+KB-16240,Karen Bern,Corporate,Champions,5,7,3152.6150000000002,13,12.5,Low
+KB-16315,Karl Braun,Consumer,Can't Lose Them,297,9,1569.464,8,65.0,High
+KB-16405,Katrina Bavinger,Home Office,Lost,118,3,908.821,4,87.5,High
+KB-16585,Ken Black,Corporate,At Risk,231,12,2744.742,9,60.0,Medium
+KB-16600,Ken Brennan,Corporate,Potential Loyalists,2,7,983.922,11,22.5,Low
+KC-16255,Karen Carlisle,Corporate,At Risk,408,6,2120.954,7,75.0,High
+KC-16540,Kelly Collister,Consumer,About to Sleep,98,4,3908.262,8,60.0,Medium
+KC-16675,Kimberly Carter,Corporate,About to Sleep,58,4,1146.05,6,70.0,High
+KD-16270,Karen Daniels,Consumer,Lost,485,5,8282.358,8,72.5,High
+KD-16345,Katherine Ducich,Consumer,Loyal Customers,42,6,1888.964,10,37.5,Medium
+KD-16495,Keith Dawkins,Corporate,At Risk,113,12,8181.256,12,37.5,Medium
+KD-16615,Ken Dana,Corporate,Lost,290,5,2243.5099999999998,6,82.5,High
+KE-16420,Katrina Edelman,Corporate,Potential Loyalists,27,8,1686.7312,11,22.5,Low
+KF-16285,Karen Ferguson,Home Office,Loyal Customers,98,7,10604.266,12,32.5,Medium
+KH-16330,Katharine Harms,Corporate,Champions,41,8,3312.864,12,25.0,Low
+KH-16360,Katherine Hughes,Consumer,Loyal Customers,2,6,3100.612,12,20.0,Low
+KH-16510,Keith Herrera,Consumer,Champions,23,7,5952.859,14,7.5,Low
+KH-16630,Ken Heidel,Corporate,Loyal Customers,59,9,3918.9660000000003,12,30.0,Low
+KH-16690,Kristen Hastings,Corporate,Champions,3,7,5990.799,14,7.5,Low
+KL-16555,Kelly Lampkin,Corporate,Champions,17,8,5016.488,14,7.5,Low
+KL-16645,Ken Lonsdale,Consumer,Champions,48,12,14175.229000000001,14,12.5,Low
+KM-16225,Kalyca Meade,Corporate,Loyal Customers,15,6,2260.958,11,25.0,Low
+KM-16375,Katherine Murray,Home Office,Loyal Customers,57,8,5620.186,12,32.5,Medium
+KM-16660,Khloe Miller,Consumer,New Customers,16,5,453.538,8,42.5,Medium
+KM-16720,Kunst Miller,Consumer,Champions,29,8,4909.472,13,20.0,Low
+KN-16390,Katherine Nockton,Corporate,Loyal Customers,20,9,2617.272,13,10.0,Low
+KN-16450,Kean Nguyen,Corporate,New Customers,53,5,2171.962,9,45.0,Medium
+KN-16705,Kristina Nunn,Home Office,Loyal Customers,99,8,2280.58,10,42.5,Medium
+KS-16300,Karen Seio,Corporate,Lost,296,3,88.472,3,100.0,High
+KT-16465,Kean Takahito,Consumer,At Risk,392,7,3057.1,9,62.5,High
+KT-16480,Kean Thornton,Consumer,Loyal Customers,101,10,4642.088400000001,13,25.0,Low
+KW-16435,Katrina Willman,Consumer,Potential Loyalists,97,5,4416.5199999999995,10,47.5,Medium
+KW-16570,Kelly Williams,Consumer,Lost,772,4,449.096,3,100.0,High
+LA-16780,Laura Armstrong,Corporate,At Risk,155,11,8673.222,12,37.5,Medium
+LB-16735,Larry Blacks,Consumer,New Customers,49,3,50.188,6,62.5,High
+LB-16795,Laurel Beltran,Home Office,At Risk,153,8,4985.676,11,45.0,Medium
+LC-16870,Lena Cacioppo,Consumer,Loyal Customers,28,8,2580.7039999999997,11,30.0,Low
+LC-16885,Lena Creighton,Consumer,Champions,17,12,7663.126,15,0.0,
+LC-16930,Linda Cazamias,Corporate,Champions,42,8,4492.946,13,20.0,Low
+LC-16960,Lindsay Castell,Home Office,Lost,437,4,3246.626,6,85.0,High
+LC-17050,Liz Carlisle,Consumer,Potential Loyalists,55,5,2095.064,8,57.5,Medium
+LC-17140,Logan Currie,Consumer,Loyal Customers,14,9,2633.582,13,10.0,Low
+LD-16855,Lela Donovan,Corporate,Lost,553,1,5.304,3,100.0,High
+LD-17005,Lisa DeCherney,Consumer,Lost,415,4,1961.934,5,90.0,High
+LE-16810,Laurel Elliston,Consumer,Potential Loyalists,22,6,1469.45,10,30.0,Low
+LF-17185,Luke Foster,Consumer,Champions,23,7,3930.5089999999996,13,12.5,Low
+LH-16750,Larry Hughes,Consumer,Lost,152,3,287.426,4,87.5,High
+LH-16900,Lena Hernandez,Consumer,Loyal Customers,22,9,2295.332,13,10.0,Low
+LH-17020,Lisa Hazard,Consumer,Lost,240,4,318.239,3,100.0,High
+LH-17155,Logan Haushalter,Consumer,At Risk,386,9,1739.689,9,60.0,Medium
+LL-16840,Lauren Leatherbury,Consumer,At Risk,250,6,2741.2039999999997,7,75.0,High
+LM-17065,Liz MacKendrick,Consumer,Lost,392,5,1346.774,5,87.5,High
+LO-17170,Lori Olson,Corporate,New Customers,3,5,644.35,8,42.5,Medium
+LP-17080,Liz Pelletier,Consumer,New Customers,41,4,756.606,6,62.5,High
+LP-17095,Liz Preis,Consumer,Champions,10,7,3653.399,13,12.5,Low
+LR-16915,Lena Radford,Consumer,Loyal Customers,27,6,5142.892,13,15.0,Low
+LR-17035,Lisa Ryan,Corporate,Lost,133,5,1879.306,7,70.0,High
+LS-16945,Linda Southworth,Corporate,At Risk,179,6,2845.27,9,57.5,Medium
+LS-16975,Lindsay Shagiari,Home Office,Champions,21,9,2988.674,14,5.0,Low
+LS-17200,Luke Schmidt,Corporate,Potential Loyalists,97,6,1010.2560000000001,8,55.0,Medium
+LS-17230,Lycoris Saunders,Consumer,Lost,778,3,368.88000000000005,3,100.0,High
+LS-17245,Lynn Smith,Consumer,Potential Loyalists,35,6,1008.1360000000001,9,42.5,Medium
+LT-16765,Larry Tron,Consumer,New Customers,27,3,329.876,7,50.0,Medium
+LT-17110,Liz Thompson,Consumer,Champions,35,8,2936.252,12,25.0,Low
+LW-16825,Laurel Workman,Corporate,Potential Loyalists,89,5,2238.061,8,57.5,Medium
+LW-16990,Lindsay Williams,Corporate,Loyal Customers,34,6,3230.308,11,32.5,Medium
+LW-17125,Liz Willingham,Consumer,Lost,206,3,1259.04,5,82.5,High
+LW-17215,Luke Weiss,Consumer,Champions,22,7,5420.514,14,7.5,Low
+MA-17560,Matt Abelman,Home Office,Loyal Customers,65,11,4299.161,13,25.0,Low
+MA-17995,Michelle Arnett,Home Office,At Risk,187,6,2453.284,8,62.5,High
+MB-17305,Maria Bertelson,Consumer,Potential Loyalists,49,10,1548.702,11,27.5,Low
+MB-18085,Mick Brown,Consumer,Potential Loyalists,45,7,1428.231,10,35.0,Medium
+MC-17275,Marc Crier,Consumer,Loyal Customers,77,8,2725.982,10,42.5,Medium
+MC-17425,Mark Cousins,Corporate,Lost,400,5,4432.138,8,72.5,High
+MC-17575,Matt Collins,Consumer,Potential Loyalists,28,8,1303.893,10,35.0,Medium
+MC-17590,Matt Collister,Corporate,Loyal Customers,52,6,2426.067,10,37.5,Medium
+MC-17605,Matt Connell,Corporate,At Risk,113,8,2258.192,9,55.0,Medium
+MC-17635,Matthew Clasen,Corporate,Lost,190,4,795.154,4,87.5,High
+MC-17845,Michael Chen,Consumer,Champions,2,7,3805.714,13,12.5,Low
+MC-18100,Mick Crebagga,Consumer,Loyal Customers,42,10,2218.98,12,22.5,Low
+MC-18130,Mike Caudle,Corporate,Lost,370,5,1581.9979999999998,5,87.5,High
+MD-17350,Maribeth Dona,Consumer,At Risk,118,7,3766.382,10,50.0,Medium
+MD-17860,Michael Dominguez,Corporate,New Customers,37,5,1204.91,8,50.0,Medium
+ME-17320,Maria Etezadi,Home Office,Champions,43,10,10663.728000000001,14,12.5,Low
+ME-17725,Max Engle,Consumer,Loyal Customers,29,8,1908.4532,11,30.0,Low
+ME-18010,Michelle Ellison,Corporate,Potential Loyalists,93,4,1256.944,7,62.5,High
+MF-17665,Maureen Fritzler,Corporate,Lost,422,5,937.039,4,92.5,High
+MF-18250,Monica Federle,Corporate,New Customers,8,5,1758.3,10,32.5,Medium
+MG-17650,Matthew Grinstein,Home Office,Champions,30,7,3785.276,12,25.0,Low
+MG-17680,Maureen Gastineau,Home Office,Potential Loyalists,93,4,2350.188,8,57.5,Medium
+MG-17695,Maureen Gnade,Consumer,Lost,556,3,1342.282,4,95.0,High
+MG-17875,Michael Grace,Home Office,Lost,117,5,1242.8329999999999,6,75.0,High
+MG-17890,Michael Granlund,Home Office,Need Attention,100,9,776.384,9,45.0,Medium
+MG-18145,Mike Gockenbach,Consumer,Potential Loyalists,85,4,3061.543,9,52.5,Medium
+MG-18205,Mitch Gastineau,Corporate,Lost,265,1,16.739,3,100.0,High
+MH-17290,Marc Harrigan,Home Office,At Risk,120,6,2394.025,8,62.5,High
+MH-17440,Mark Haberlin,Corporate,Lost,377,4,400.016,4,92.5,High
+MH-17455,Mark Hamilton,Consumer,Loyal Customers,86,8,2456.1820000000002,10,42.5,Medium
+MH-17620,Matt Hagelstein,Corporate,Lost,156,4,1252.8,6,75.0,High
+MH-17785,Maya Herman,Corporate,Loyal Customers,99,7,2203.7780000000002,10,42.5,Medium
+MH-18025,Michelle Huthwaite,Consumer,New Customers,50,5,2984.948,10,40.0,Medium
+MH-18115,Mick Hernandez,Home Office,Champions,6,9,5503.093,15,0.0,
+MJ-17740,Max Jones,Consumer,Champions,23,7,6320.746,14,7.5,Low
+MK-17905,Michael Kennedy,Corporate,Loyal Customers,29,8,2302.368,11,30.0,Low
+MK-18160,Mike Kennedy,Consumer,Lost,241,4,1031.602,5,87.5,High
+ML-17395,Marina Lichtenstein,Corporate,Loyal Customers,70,9,2722.843,11,35.0,Medium
+ML-17410,Maris LaWare,Consumer,Loyal Customers,55,6,2921.5,10,45.0,Medium
+ML-17755,Max Ludwig,Home Office,Loyal Customers,30,7,2071.9139999999998,11,30.0,Low
+ML-18040,Michelle Lonsdale,Corporate,About to Sleep,80,3,742.082,5,75.0,High
+ML-18265,Muhammed Lee,Consumer,About to Sleep,101,2,162.232,5,75.0,High
+MM-17260,Magdelene Morse,Consumer,Lost,169,4,1314.023,6,75.0,High
+MM-17920,Michael Moore,Consumer,Champions,8,11,3794.0800000000004,14,5.0,Low
+MM-18055,Michelle Moray,Consumer,Loyal Customers,62,8,2749.881,10,42.5,Medium
+MM-18280,Muhammed MacIntyre,Corporate,Need Attention,86,9,775.414,9,45.0,Medium
+MN-17935,Michael Nguyen,Consumer,Loyal Customers,35,6,2477.946,10,37.5,Medium
+MO-17500,Mary O'Rourke,Consumer,About to Sleep,73,4,922.487,6,67.5,High
+MO-17800,Meg O'Connel,Home Office,Can't Lose Them,105,8,1687.0269999999998,8,60.0,Medium
+MO-17950,Michael Oakman,Consumer,Lost,181,2,154.288,4,87.5,High
+MP-17470,Mark Packer,Home Office,At Risk,720,7,3206.132,9,62.5,High
+MP-17965,Michael Paige,Corporate,Loyal Customers,73,9,3983.6420000000003,12,30.0,Low
+MP-18175,Mike Pelletier,Home Office,Champions,17,9,5087.92,15,0.0,
+MR-17545,Mathew Reese,Home Office,Lost,126,4,639.178,5,80.0,High
+MS-17365,Maribeth Schnelling,Consumer,At Risk,274,10,7443.6900000000005,11,50.0,Medium
+MS-17530,MaryBeth Skach,Consumer,Lost,435,4,475.65599999999995,4,92.5,High
+MS-17710,Maurice Satty,Consumer,Need Attention,414,6,1613.402,6,80.0,High
+MS-17770,Maxwell Schwartz,Consumer,At Risk,122,9,3144.678,11,42.5,Medium
+MS-17830,Melanie Seite,Consumer,Lost,453,4,370.348,4,92.5,High
+MS-17980,Michael Stewart,Corporate,Need Attention,27,6,855.116,9,35.0,Medium
+MT-17815,Meg Tillman,Consumer,Loyal Customers,50,6,2890.139,11,32.5,Medium
+MT-18070,Michelle Tran,Home Office,Lost,204,4,1319.4498,6,75.0,High
+MV-17485,Mark Van Huff,Consumer,Potential Loyalists,28,9,1560.05,11,27.5,Low
+MV-18190,Mike Vittorini,Consumer,Potential Loyalists,20,7,1734.574,11,22.5,Low
+MW-18220,Mitch Webber,Consumer,Champions,18,7,5341.900000000001,14,7.5,Low
+MW-18235,Mitch Willingham,Corporate,New Customers,45,2,5253.876,10,42.5,Medium
+MY-17380,Maribeth Yedwab,Corporate,Loyal Customers,30,7,2254.285,11,30.0,Low
+MY-18295,Muhammed Yedwab,Corporate,Loyal Customers,72,11,4152.696,12,30.0,Low
+MZ-17335,Maria Zettner,Home Office,New Customers,31,4,593.606,7,55.0,Medium
+MZ-17515,Mary Zewe,Corporate,At Risk,283,6,2564.906,7,75.0,High
+NB-18580,Nicole Brennan,Corporate,Lost,1166,2,273.87199999999996,3,100.0,High
+NB-18655,Nona Balk,Corporate,Loyal Customers,20,9,1972.599,13,10.0,Low
+NC-18340,Nat Carroll,Consumer,Lost,225,5,2461.404,7,70.0,High
+NC-18415,Nathan Cano,Consumer,Loyal Customers,42,6,2218.9900000000002,10,37.5,Medium
+NC-18535,Nick Crebassa,Corporate,Champions,7,7,8241.739,14,7.5,Low
+NC-18625,Noah Childs,Corporate,Lost,205,5,1821.742,7,70.0,High
+ND-18370,Natalie DeCherney,Consumer,Champions,28,9,4326.139,14,12.5,Low
+ND-18460,Neil Ducich,Corporate,At Risk,184,6,2893.455,9,57.5,Medium
+NF-18385,Natalie Fritzler,Consumer,Loyal Customers,80,7,8322.826,12,32.5,Medium
+NF-18475,Neil Französisch,Home Office,Lost,526,4,377.16200000000003,4,92.5,High
+NF-18595,Nicole Fjeld,Home Office,At Risk,115,7,2031.472,9,55.0,Medium
+NG-18355,Nat Gilpin,Corporate,New Customers,49,5,1869.58,9,45.0,Medium
+NG-18430,Nathan Gelder,Consumer,New Customers,49,5,1395.9379999999999,8,50.0,Medium
+NH-18610,Nicole Hansen,Corporate,At Risk,190,7,2673.29,9,55.0,Medium
+NK-18490,Neil Knudson,Home Office,Need Attention,71,7,572.048,8,52.5,Medium
+NL-18310,Nancy Lomonaco,Home Office,Potential Loyalists,59,4,1418.0900000000001,7,62.5,High
+NM-18445,Nathan Mautz,Home Office,At Risk,161,7,6459.344,11,45.0,Medium
+NM-18520,Neoma Murray,Consumer,At Risk,245,10,2161.979,9,60.0,Medium
+NP-18325,Naresj Patel,Consumer,Loyal Customers,26,6,5529.62,13,15.0,Low
+NP-18670,Nora Paige,Consumer,Potential Loyalists,59,5,3908.402,9,52.5,Medium
+NP-18685,Nora Pelletier,Home Office,Need Attention,407,6,1228.698,6,80.0,High
+NP-18700,Nora Preis,Consumer,At Risk,139,7,7903.1825,11,45.0,Medium
+NR-18550,Nick Radford,Consumer,Lost,211,5,2367.277,7,70.0,High
+NS-18505,Neola Schneider,Consumer,New Customers,7,4,2575.863,10,32.5,Medium
+NS-18640,Noel Staavos,Corporate,At Risk,175,13,2964.823,11,42.5,Medium
+NW-18400,Natalie Webber,Consumer,At Risk,173,7,7234.014,11,45.0,Medium
+NZ-18565,Nick Zandusky,Home Office,Loyal Customers,86,9,2488.31,11,35.0,Medium
+ON-18715,Odella Nelson,Corporate,Can't Lose Them,411,9,1567.52,8,65.0,High
+OT-18730,Olvera Toch,Consumer,Potential Loyalists,66,5,3818.624,9,52.5,Medium
+PA-19060,Pete Armstrong,Home Office,Need Attention,104,6,729.408,7,60.0,Medium
+PB-18805,Patrick Bzostek,Home Office,New Customers,26,3,740.356,7,50.0,Medium
+PB-19105,Peter Bühler,Consumer,About to Sleep,58,4,688.324,6,67.5,High
+PB-19150,Philip Brown,Consumer,Potential Loyalists,98,8,1456.95,9,47.5,Medium
+PB-19210,Phillip Breyer,Corporate,Lost,689,2,132.738,3,100.0,High
+PC-18745,Pamela Coakley,Corporate,New Customers,3,4,1832.064,10,32.5,Medium
+PC-19000,Pauline Chand,Home Office,Lost,883,2,1061.488,4,95.0,High
+PF-19120,Peter Fuller,Consumer,Lost,836,4,9062.864,8,72.5,High
+PF-19165,Philip Fox,Consumer,At Risk,197,6,2770.0,9,57.5,Medium
+PF-19225,Phillip Flathmann,Consumer,Lost,115,5,2206.1279999999997,7,70.0,High
+PG-18820,Patrick Gardner,Consumer,Champions,37,13,3086.907,13,17.5,Low
+PG-18895,Paul Gonzalez,Consumer,Loyal Customers,58,9,1987.164,11,35.0,Medium
+PH-18790,Patricia Hirasaki,Home Office,About to Sleep,71,1,729.648,5,75.0,High
+PJ-18835,Patrick Jones,Corporate,Potential Loyalists,40,8,1220.09,10,35.0,Medium
+PJ-19015,Pauline Johnson,Consumer,At Risk,135,7,1824.2340000000002,9,55.0,Medium
+PK-18910,Paul Knutson,Home Office,Lost,484,2,1441.152,4,95.0,High
+PK-19075,Pete Kriz,Consumer,Champions,10,12,8646.934,15,0.0,
+PL-18925,Paul Lucas,Home Office,New Customers,16,5,239.481,8,42.5,Medium
+PM-18940,Paul MacIntyre,Consumer,Lost,387,3,1405.402,4,95.0,High
+PM-19135,Peter McVee,Home Office,New Customers,52,4,4115.662,10,40.0,Medium
+PN-18775,Parhena Norris,Home Office,Potential Loyalists,31,8,1467.152,10,35.0,Medium
+PO-18850,Patrick O'Brill,Consumer,Champions,5,11,7473.8282,15,0.0,
+PO-18865,Patrick O'Donnell,Consumer,Loyal Customers,1,7,2493.214,12,17.5,Low
+PO-19180,Philisse Overcash,Home Office,At Risk,161,9,4893.043,12,37.5,Medium
+PO-19195,Phillina Ober,Home Office,Potential Loyalists,87,5,1056.858,7,62.5,High
+PP-18955,Paul Prost,Home Office,Loyal Customers,98,10,7252.608,13,25.0,Low
+PR-18880,Patrick Ryan,Consumer,New Customers,37,5,1840.178,9,45.0,Medium
+PS-18760,Pamela Stobb,Consumer,At Risk,108,6,2181.479,8,62.5,High
+PS-18970,Paul Stevenson,Home Office,Potential Loyalists,70,8,1278.639,9,47.5,Medium
+PS-19045,Penelope Sewall,Home Office,At Risk,237,7,6843.634,10,57.5,Medium
+PT-19090,Pete Takahito,Consumer,About to Sleep,72,4,160.572,6,67.5,High
+PV-18985,Paul Van Hugh,Home Office,Potential Loyalists,90,5,2876.046,9,52.5,Medium
+PW-19030,Pauline Webber,Corporate,Champions,47,10,3454.916,13,17.5,Low
+PW-19240,Pierre Wener,Consumer,At Risk,465,7,3922.4150000000004,9,62.5,High
+QJ-19255,Quincy Jones,Corporate,Champions,26,9,6108.338,15,0.0,
+RA-19285,Ralph Arnett,Consumer,Loyal Customers,6,9,2617.906,13,10.0,Low
+RA-19885,Ruben Ausman,Corporate,Champions,44,7,3832.314,12,25.0,Low
+RA-19915,Russell Applegate,Consumer,Champions,13,9,4793.543,15,0.0,
+RA-19945,Ryan Akin,Consumer,Potential Loyalists,62,5,1686.9225,7,62.5,High
+RB-19330,Randy Bradley,Consumer,About to Sleep,69,2,1008.1959999999999,6,70.0,High
+RB-19360,Raymond Buch,Consumer,Loyal Customers,97,6,15117.339,11,40.0,Medium
+RB-19435,Richard Bierner,Consumer,Loyal Customers,20,8,2663.0860000000002,12,17.5,Low
+RB-19465,Rick Bensley,Home Office,Champions,10,12,4715.466,15,0.0,
+RB-19570,Rob Beeghly,Consumer,New Customers,26,5,528.546,8,42.5,Medium
+RB-19645,Robert Barroso,Corporate,Lost,649,5,221.084,4,92.5,High
+RB-19705,Roger Barcio,Home Office,Potential Loyalists,55,4,2067.45,8,57.5,Medium
+RB-19795,Ross Baird,Home Office,Champions,33,8,5633.316000000001,13,20.0,Low
+RC-19825,Roy Collins,Consumer,Need Attention,370,6,966.409,6,80.0,High
+RC-19960,Ryan Crowe,Consumer,Need Attention,111,6,885.752,6,72.5,High
+RD-19480,Rick Duston,Consumer,Loyal Customers,73,8,4272.93,11,37.5,Medium
+RD-19585,Rob Dowd,Consumer,At Risk,181,10,2912.8940000000002,11,42.5,Medium
+RD-19660,Robert Dilbeck,Home Office,Lost,115,5,2786.632,8,65.0,High
+RD-19720,Roger Demir,Consumer,Potential Loyalists,22,10,1419.737,12,15.0,Low
+RD-19810,Ross DeVincentis,Home Office,Potential Loyalists,15,8,1137.616,11,22.5,Low
+RD-19900,Ruben Dartt,Consumer,At Risk,115,9,3133.924,11,42.5,Medium
+RD-19930,Russell D'Ascenzo,Consumer,New Customers,43,4,970.9420000000001,8,50.0,Medium
+RE-19405,Ricardo Emerson,Consumer,Lost,1098,1,48.36,3,100.0,High
+RE-19450,Richard Eichhorn,Consumer,Lost,303,5,876.696,4,92.5,High
+RF-19345,Randy Ferguson,Corporate,At Risk,391,8,3309.15,9,62.5,High
+RF-19735,Roland Fjeld,Consumer,Loyal Customers,90,7,2341.2960000000003,10,42.5,Medium
+RF-19840,Roy Französisch,Consumer,Need Attention,7,8,945.222,10,27.5,Low
+RH-19495,Rick Hansen,Consumer,New Customers,33,5,3621.3759999999997,10,40.0,Medium
+RH-19510,Rick Huthwaite,Home Office,At Risk,468,6,6979.18,9,65.0,High
+RH-19555,Ritsa Hightower,Consumer,Lost,520,2,740.382,3,100.0,High
+RH-19600,Rob Haberlin,Consumer,Lost,535,3,2085.7400000000002,5,90.0,High
+RK-19300,Ralph Kennedy,Consumer,Lost,120,3,1460.192,5,82.5,High
+RL-19615,Rob Lucas,Consumer,At Risk,122,8,6234.91,11,45.0,Medium
+RM-19375,Raymond Messe,Consumer,Need Attention,346,6,1453.474,6,80.0,High
+RM-19675,Robert Marley,Home Office,New Customers,7,5,5979.0960000000005,12,22.5,Low
+RM-19750,Roland Murray,Consumer,Lost,300,1,98.35,3,100.0,High
+RO-19780,Rose O'Brian,Consumer,Champions,36,7,3815.478,12,25.0,Low
+RP-19270,Rachel Payne,Corporate,Lost,497,4,954.6452,4,92.5,High
+RP-19390,Resi Pölking,Consumer,Champions,34,12,5153.084,14,12.5,Low
+RP-19855,Roy Phan,Corporate,Loyal Customers,29,8,2170.716,11,30.0,Low
+RR-19315,Ralph Ritter,Consumer,New Customers,20,2,615.932,7,50.0,Medium
+RR-19525,Rick Reed,Corporate,At Risk,171,6,3302.2619999999997,9,57.5,Medium
+RS-19420,Ricardo Sperren,Corporate,Potential Loyalists,77,5,3221.29,9,52.5,Medium
+RS-19765,Roland Schwarz,Corporate,Champions,37,8,4159.7699999999995,12,25.0,Low
+RS-19870,Roy Skaria,Home Office,New Customers,20,2,22.328,7,50.0,Medium
+RW-19540,Rick Wilson,Corporate,At Risk,121,7,7397.401,11,45.0,Medium
+RW-19630,Rob Williams,Corporate,Loyal Customers,90,9,3279.746,12,30.0,Low
+RW-19690,Robert Waldorf,Consumer,Potential Loyalists,80,5,3495.646,9,52.5,Medium
+SA-20830,Sue Ann Reed,Consumer,Loyal Customers,64,10,4767.3415,13,25.0,Low
+SB-20170,Sarah Bern,Consumer,Lost,202,3,1348.02,5,82.5,High
+SB-20185,Sarah Brown,Consumer,At Risk,189,6,6410.996,10,52.5,Medium
+SB-20290,Sean Braxton,Corporate,Champions,48,7,8057.891,13,20.0,Low
+SC-20020,Sam Craven,Consumer,Lost,782,5,3362.9636,7,77.5,High
+SC-20050,Sample Company A,Home Office,Champions,41,9,4624.572,14,12.5,Low
+SC-20095,Sanjit Chand,Consumer,At Risk,350,9,14142.333999999999,11,50.0,Medium
+SC-20230,Scot Coram,Corporate,Lost,150,4,4371.9580000000005,9,60.0,Medium
+SC-20260,Scott Cohen,Corporate,At Risk,188,8,3729.7929999999997,10,50.0,Medium
+SC-20305,Sean Christensen,Consumer,Champions,30,7,3979.065,12,25.0,Low
+SC-20380,Shahid Collister,Consumer,Champions,31,9,5992.536,14,12.5,Low
+SC-20440,Shaun Chance,Corporate,Loyal Customers,37,7,1874.998,11,30.0,Low
+SC-20575,Sonia Cooley,Consumer,About to Sleep,93,5,902.7280000000001,6,67.5,High
+SC-20680,Steve Carroll,Home Office,Need Attention,127,6,1254.64,7,67.5,High
+SC-20695,Steve Chapman,Corporate,Loyal Customers,90,10,2576.408,11,35.0,Medium
+SC-20725,Steven Cartwright,Consumer,At Risk,188,11,5226.21,12,37.5,Medium
+SC-20770,Stewart Carmichael,Corporate,Champions,42,7,4492.657,13,20.0,Low
+SC-20800,Stuart Calhoun,Consumer,New Customers,31,4,279.25600000000003,7,55.0,Medium
+SC-20845,Sung Chung,Consumer,Lost,132,2,280.632,4,87.5,High
+SD-20485,Shirley Daniels,Home Office,At Risk,201,9,6121.114,12,37.5,Medium
+SE-20110,Sanjit Engle,Consumer,Champions,10,11,12209.438000000002,15,0.0,
+SF-20065,Sandra Flanagan,Consumer,Need Attention,60,7,763.5459999999999,8,52.5,Medium
+SF-20200,Sarah Foster,Consumer,Loyal Customers,60,9,3422.7859999999996,12,30.0,Low
+SF-20965,Sylvia Foulston,Corporate,Champions,49,9,3336.535,13,17.5,Low
+SG-20080,Sandra Glassco,Consumer,New Customers,9,3,3406.5809999999997,10,35.0,Medium
+SG-20470,Sheri Gordon,Consumer,At Risk,184,8,1884.798,9,55.0,Medium
+SG-20605,Speros Goranitis,Consumer,At Risk,109,6,3124.832,9,57.5,Medium
+SG-20890,Susan Gilcrest,Corporate,Lost,227,3,47.946,3,100.0,High
+SH-19975,Sally Hughsby,Corporate,Champions,30,13,3406.8395,13,17.5,Low
+SH-20395,Shahid Hopkins,Consumer,Loyal Customers,24,10,2180.718,13,10.0,Low
+SH-20635,Stefanie Holloman,Corporate,Lost,766,2,2096.392,5,90.0,High
+SJ-20125,Sanjit Jacobs,Home Office,Loyal Customers,96,12,3949.656,12,30.0,Low
+SJ-20215,Sarah Jordon,Consumer,Potential Loyalists,30,6,1341.036,9,42.5,Medium
+SJ-20500,Shirley Jackson,Consumer,Lost,254,5,1318.776,5,87.5,High
+SK-19990,Sally Knutson,Consumer,New Customers,9,3,883.409,7,50.0,Medium
+SL-20155,Sara Luxemburg,Home Office,Loyal Customers,71,7,3053.012,11,37.5,Medium
+SM-20005,Sally Matthias,Consumer,Lost,422,4,244.49399999999997,4,92.5,High
+SM-20320,Sean Miller,Home Office,Potential Loyalists,80,5,25043.05,10,47.5,Medium
+SM-20905,Susan MacKendrick,Consumer,Lost,607,1,1043.041,4,95.0,High
+SM-20950,Suzanne McNair,Corporate,Champions,26,12,5563.392,15,0.0,
+SN-20560,Skye Norling,Home Office,At Risk,112,6,1860.418,8,62.5,High
+SN-20710,Steve Nguyen,Home Office,Loyal Customers,80,7,3127.9592,11,37.5,Medium
+SO-20335,Sean O'Donnell,Consumer,Loyal Customers,30,6,2602.5755,10,37.5,Medium
+SP-20545,Sibella Parks,Corporate,Need Attention,328,6,1306.086,6,80.0,High
+SP-20620,Stefania Perrino,Corporate,Champions,48,9,5440.319,14,12.5,Low
+SP-20650,Stephanie Phelps,Corporate,At Risk,387,9,1872.4360000000001,9,60.0,Medium
+SP-20860,Sung Pak,Corporate,Loyal Customers,80,10,4282.94,13,25.0,Low
+SP-20920,Susan Pistek,Consumer,Loyal Customers,71,6,3990.689,10,45.0,Medium
+SR-20425,Sharelle Roach,Home Office,New Customers,9,5,3233.481,11,27.5,Low
+SR-20740,Steven Roelle,Home Office,At Risk,197,8,4345.8859999999995,11,45.0,Medium
+SS-20140,Saphhira Shifley,Corporate,Potential Loyalists,16,8,1324.028,11,22.5,Low
+SS-20410,Shahid Shariari,Consumer,At Risk,111,6,3056.8070000000002,9,57.5,Medium
+SS-20515,Shirley Schmidt,Home Office,Lost,492,3,613.4,3,100.0,High
+SS-20590,Sonia Sunley,Consumer,Need Attention,433,6,418.49,5,85.0,High
+SS-20875,Sung Shariari,Consumer,Lost,121,5,964.636,6,75.0,High
+ST-20530,Shui Tom,Consumer,Can't Lose Them,126,7,433.34000000000003,7,65.0,High
+SU-20665,Stephanie Ulpright,Home Office,Loyal Customers,21,7,2595.364,12,17.5,Low
+SV-20365,Seth Vernon,Consumer,Loyal Customers,102,10,11470.949999999999,13,25.0,Low
+SV-20785,Stewart Visinsky,Consumer,At Risk,321,9,4105.305,10,55.0,Medium
+SV-20815,Stuart Van,Corporate,Potential Loyalists,77,4,1271.0900000000001,7,62.5,High
+SV-20935,Susan Vittorini,Consumer,Loyal Customers,3,8,1903.491,12,17.5,Low
+SW-20245,Scot Wooten,Consumer,Potential Loyalists,82,7,1085.078,9,47.5,Medium
+SW-20275,Scott Williamson,Consumer,Loyal Customers,31,6,1966.65,10,37.5,Medium
+SW-20350,Sean Wendt,Home Office,Lost,163,3,1019.044,5,82.5,High
+SW-20455,Shaun Weien,Consumer,At Risk,163,7,2921.544,10,50.0,Medium
+SW-20755,Steven Ward,Corporate,Lost,535,2,758.6959999999999,3,100.0,High
+SZ-20035,Sam Zeldin,Home Office,Champions,36,11,3625.329,13,17.5,Low
+TA-21385,Tom Ashbrook,Home Office,Potential Loyalists,70,4,14595.62,10,47.5,Medium
+TB-21055,Ted Butterfield,Consumer,Lost,120,5,1467.881,6,75.0,High
+TB-21175,Thomas Boland,Corporate,Potential Loyalists,59,4,3589.296,9,52.5,Medium
+TB-21190,Thomas Brumley,Home Office,New Customers,50,4,816.1740000000001,7,55.0,Medium
+TB-21250,Tim Brockman,Consumer,Can't Lose Them,350,7,1602.376,7,72.5,High
+TB-21280,Toby Braunhardt,Consumer,At Risk,584,6,2198.45,7,75.0,High
+TB-21355,Todd Boyes,Corporate,Lost,147,5,834.328,5,80.0,High
+TB-21400,Tom Boeckenhauer,Consumer,At Risk,203,7,9133.99,11,45.0,Medium
+TB-21520,Tracy Blumstein,Consumer,At Risk,108,9,4737.486,12,37.5,Medium
+TB-21595,Troy Blackwell,Consumer,Lost,286,5,1387.559,5,87.5,High
+TB-21625,Trudy Brown,Consumer,Champions,31,9,2797.668,13,17.5,Low
+TC-20980,Tamara Chand,Corporate,Lost,400,5,19052.218,8,72.5,High
+TC-21145,Theresa Coyne,Corporate,Lost,107,1,1038.26,5,82.5,High
+TC-21295,Toby Carlisle,Consumer,Champions,28,8,4266.812,12,25.0,Low
+TC-21475,Tony Chapman,Home Office,Can't Lose Them,154,9,1244.976,9,52.5,Medium
+TC-21535,Tracy Collins,Home Office,Need Attention,5,7,742.5580000000001,10,27.5,Low
+TD-20995,Tamara Dahlen,Consumer,Potential Loyalists,38,9,1434.5480000000002,11,27.5,Low
+TG-21310,Toby Gnade,Consumer,At Risk,338,5,3058.372,8,70.0,High
+TG-21640,Trudy Glocke,Consumer,Lost,115,4,2074.661,7,70.0,High
+TH-21100,Thea Hendricks,Consumer,At Risk,345,5,2422.824,7,75.0,High
+TH-21115,Thea Hudgings,Corporate,Potential Loyalists,59,4,2942.772,9,52.5,Medium
+TH-21235,Tiffany House,Corporate,Can't Lose Them,118,8,1022.201,8,60.0,Medium
+TH-21550,Tracy Hopkins,Home Office,Loyal Customers,73,7,4234.0960000000005,11,37.5,Medium
+TM-21010,Tamara Manning,Consumer,Loyal Customers,104,8,2955.2259999999997,11,37.5,Medium
+TM-21490,Tony Molinari,Consumer,Lost,131,3,1094.6779999999999,5,82.5,High
+TN-21040,Tanja Norvell,Home Office,Loyal Customers,91,7,3130.221,11,37.5,Medium
+TP-21130,Theone Pippenger,Consumer,Champions,9,9,4454.0560000000005,15,0.0,
+TP-21415,Tom Prescott,Consumer,At Risk,105,5,5329.0048,10,52.5,Medium
+TP-21565,Tracy Poddar,Corporate,Lost,351,4,1936.6399999999999,6,82.5,High
+TR-21325,Toby Ritter,Consumer,Need Attention,194,5,675.9419999999999,6,72.5,High
+TS-21085,Thais Sissman,Consumer,Lost,358,2,4.833,3,100.0,High
+TS-21160,Theresa Swint,Corporate,At Risk,505,6,2163.6240000000003,7,75.0,High
+TS-21205,Thomas Seio,Corporate,At Risk,199,7,5371.09,11,45.0,Medium
+TS-21340,Toby Swindell,Consumer,Need Attention,227,5,974.7819999999999,6,80.0,High
+TS-21370,Todd Sumrall,Corporate,Loyal Customers,37,6,11891.751,12,27.5,Low
+TS-21430,Tom Stivers,Corporate,At Risk,173,5,2054.14,8,62.5,High
+TS-21505,Tony Sayre,Consumer,Loyal Customers,12,6,2243.274,11,25.0,Low
+TS-21610,Troy Staebel,Consumer,Loyal Customers,56,7,2820.424,11,37.5,Medium
+TS-21655,Trudy Schmidt,Consumer,At Risk,239,5,3368.094,8,70.0,High
+TT-21070,Ted Trevino,Consumer,Champions,32,7,4915.602,13,20.0,Low
+TT-21220,Thomas Thornton,Consumer,Can't Lose Them,184,8,1427.0439999999999,8,60.0,Medium
+TT-21265,Tim Taslimi,Corporate,Lost,407,3,439.5,3,100.0,High
+TT-21460,Tonja Turnell,Home Office,Champions,13,7,5364.808,14,7.5,Low
+TW-21025,Tamara Willingham,Home Office,Loyal Customers,65,7,5278.826,12,32.5,Medium
+TZ-21580,Tracy Zic,Consumer,New Customers,36,4,1707.286,8,50.0,Medium
+VB-21745,Victoria Brennan,Corporate,Loyal Customers,55,6,2005.596,9,50.0,Medium
+VD-21670,Valerie Dominguez,Consumer,At Risk,582,6,6442.254,9,65.0,High
+VF-21715,Vicky Freymann,Home Office,Need Attention,14,5,847.944,9,35.0,Medium
+VG-21790,Vivek Gonzalez,Consumer,Need Attention,155,6,846.01,6,72.5,High
+VG-21805,Vivek Grady,Corporate,Need Attention,287,5,427.372,5,85.0,High
+VM-21685,Valerie Mitchum,Home Office,Loyal Customers,55,7,2454.866,10,42.5,Medium
+VM-21835,Vivian Mathis,Consumer,Need Attention,118,5,380.69,6,72.5,High
+VP-21730,Victor Preis,Home Office,New Customers,31,3,993.9019999999999,7,57.5,Medium
+VP-21760,Victoria Pisteka,Corporate,Loyal Customers,76,7,3360.526,11,37.5,Medium
+VS-21820,Vivek Sundaresam,Consumer,Lost,222,4,1055.981,6,75.0,High
+VT-21700,Valerie Takahito,Home Office,Lost,1001,2,1736.596,4,95.0,High
+VW-21775,Victoria Wilson,Corporate,Champions,29,10,6134.0380000000005,14,12.5,Low
+WB-21850,William Brown,Consumer,Champions,21,11,6160.102,15,0.0,
+XP-21865,Xylona Preis,Consumer,Loyal Customers,44,11,2374.658,12,22.5,Low
+YC-21895,Yoseph Carroll,Corporate,Loyal Customers,5,5,5454.35,13,15.0,Low
+YS-21880,Yana Sorensen,Corporate,Champions,10,8,6720.4439999999995,14,7.5,Low
+ZC-21910,Zuschuss Carroll,Consumer,Loyal Customers,55,13,8025.707,13,25.0,Low
+ZD-21925,Zuschuss Donatelli,Consumer,Need Attention,203,5,1493.944,7,67.5,High

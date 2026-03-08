@@ -4,7 +4,8 @@
  * In production, set VITE_API_URL to the deployed backend URL.
  */
 
-const BASE = import.meta.env.VITE_API_URL || '';
+const BASE = import.meta.env.VITE_API_URL
+  || (import.meta.env.PROD ? 'https://sales-intelligence-hub.onrender.com' : '');
 
 async function fetchJSON(endpoint) {
   const res = await fetch(`${BASE}${endpoint}`);

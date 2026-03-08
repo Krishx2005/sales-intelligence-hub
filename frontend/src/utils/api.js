@@ -5,7 +5,7 @@
  */
 
 const BASE = import.meta.env.VITE_API_URL
-  || (import.meta.env.PROD ? 'https://sales-intelligence-hub.onrender.com' : '');
+  || (import.meta.env.PROD ? 'https://sales-intelligence-hub-1.onrender.com' : '');
 
 async function fetchJSON(endpoint) {
   const res = await fetch(`${BASE}${endpoint}`);
